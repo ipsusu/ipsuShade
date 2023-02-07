@@ -1,8 +1,8 @@
 <p align="center">
-  <h1 align="center">IpsusuGShade</h1>
-  <p align="center">Personal repo for my GShade presets.</p>
+  <h1 align="center">IpsuShade</h1>
+  <p align="center"> ReShade / GShade presets designed for FFXIV.</p>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/ipsusu/IpsusuGShade/master/preview.jpg">
+    <img src="https://raw.githubusercontent.com/ipsusu/IpsuShade/master/preview.jpg">
   </p>
 </p>
 
