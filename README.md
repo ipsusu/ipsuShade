@@ -26,12 +26,12 @@ My presets will NOT WORK AS INTENDED if you skip this step.
 
 IpsuShade is a ReShade preset collection that aims to deliver both maximum quality at maximum FPS with the `Gameplay`, `GameplayLite` and `Questing` preset types, but also with high fidelity screenshot preset types such as `Screenie` and `Ultimate`.
 
-<img width="70%" src="https://i.imgur.com/0h3bTyM.png">
+<img src="https://i.imgur.com/0h3bTyM.png">
 
 Each preset type comes in a range of 7 included colour types.
 These colours are: 
 
-<img width="70%" src="https://i.imgur.com/wr2tvRH.png">
+<img src="https://i.imgur.com/wr2tvRH.png">
 
 ## How do I use the Ipsusu Presets on a fresh ReShade install?
 
