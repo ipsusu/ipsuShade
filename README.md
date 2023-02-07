@@ -17,8 +17,12 @@ At the current time I am unsure about permission to redistribute the Marty Mcfly
 <h3 align="center">
 While I wait for a response, you must download them from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and merge the <code>Shaders</code> folder with the one found inside your <code>reshade-shaders</code> or <code>gshade-shaders</code> folder after following the appropriate guide below.  
 </h3>
+<h3 align="center">There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name being slightly different from the GShade version.</h3>
+<h4 align="center">
+To fix this: Simply scroll down the list, enable <code>MXAO [qUINT_mxao.fx]</code> and drag it above <code>MXAO [MXAO 4.0.2 EX.fx]</code>.
+</h4>
 <h3 align="center">
-My presets will NOT WORK AS INTENDED if you skip this step.
+My presets will NOT WORK AS INTENDED if you skip these steps.
 </h3>
 <br>
 
