@@ -19,7 +19,7 @@ While I wait for a response, you must download them from <a href='https://github
 </h3>
 <h3 align="center">There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name being slightly different from the GShade version.</h3>
 <h4 align="center">
-To fix this: Simply scroll down the list, enable <code>MXAO [qUINT_mxao.fx]</code> and drag it above <code>MXAO [MXAO 4.0.2 EX.fx]</code>.
+To fix this: Simply scroll down the list, enable <code>MXAO [qUINT_mxao.fx]</code> and drag it above <code>MXAO [MXAO 4.0.2 EX.fx]</code> (you can also right click and "Move to top" to make this easier).
 </h4>
 <h3 align="center">
 My presets will NOT WORK AS INTENDED if you skip these steps.
