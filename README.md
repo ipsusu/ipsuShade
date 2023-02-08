@@ -32,7 +32,7 @@ IpsuShade is a ReShade preset collection that aims to deliver both maximum quali
 
 <img src="https://i.imgur.com/0h3bTyM.png">
 
-Each preset type comes in a range of 7 included colour types.
+Each preset type comes in a range of 7 included colour variants.
 These colours are: 
 
 <img src="https://i.imgur.com/wr2tvRH.png">
