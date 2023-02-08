@@ -11,17 +11,17 @@
 
 <h1 align="center">  !!! DISCLAIMER - PLEASE READ BEFORE CONTINUING !!! </h1>
 
-<h3 align="center">
+<h3>
 At the current time I am unsure about permission to redistribute the Marty Mcfly qUINT shader collection, which is used in my Questing, Screenie and Ultimate presets. 
 </h3>
-<h3 align="center">
+<h3>
 While I wait for a response, you must download them from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and merge the <code>Shaders</code> folder with the one found inside your <code>reshade-shaders</code> or <code>gshade-shaders</code> folder after following the appropriate guide below.  
 </h3>
-<h3 align="center">There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name of the version in the qUINT .zip being slightly different from the GShade version.</h3>
-<h4 align="center">
+<h3>There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name of the version in the qUINT .zip being slightly different from the GShade version.</h3>
+<h4>
 To fix this: Simply scroll down the list, enable <code>MXAO [qUINT_mxao.fx]</code> and drag it above <code>MXAO [MXAO 4.0.2 EX.fx]</code> (you can also right click and "Move to top" to make this easier).
 </h4>
-<h3 align="center">
+<h3>
 My presets will NOT WORK AS INTENDED if you skip these steps.
 </h3>
 <br>
