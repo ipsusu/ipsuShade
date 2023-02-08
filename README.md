@@ -19,10 +19,10 @@ While I wait for a response, you must download them from <a href='https://github
 </h3>
 <h3>There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name of the version in the qUINT .zip being slightly different from the GShade version.</h3>
 <h4>
-To fix this: Simply scroll down the list, enable <code>MXAO [qUINT_mxao.fx]</code> and drag it above <code>MXAO [MXAO 4.0.2 EX.fx]</code> (you can also right click and "Move to top" to make this easier).
+To fix this: Simply scroll down the list, enable <code>MXAO [qUINT_mxao.fx]</code> and drag it just above <code>MXAO [MXAO 4.0.2 EX.fx]</code> (you can also right click and "Move to top" to make this easier, but be sure to drag it below FFKeepUI after).
 </h4>
 <h3>
-My presets will NOT WORK AS INTENDED if you skip these steps.
+My presets will NOT WORK AS INTENDED if you skip these steps, and certain presets will lack shadows and may look too dark (especially Ultimate Crystal & Vanilla)
 </h3>
 <br>
 
@@ -37,45 +37,80 @@ These colours are:
 
 <img src="https://i.imgur.com/wr2tvRH.png">
 
+
+
+<hr>
+
+### Brief ReShade install guide for FFXIV.
+
+1. Click <a href='http://static.reshade.me/downloads/ReShade_Setup_5.6.0_Addon.exe' target='_blank'>here</a> to download the latest version of ReShade. This is the "full add-on support" version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and nice things to do with lighting and shadows.
+
+2. Select the `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. Ensure it's the `ffxiv_dx11.exe` one and not `ffxiv.exe` or `ffxivboot.exe`. 
+
+3. For the rending API step, select `Microsoft DirectX 10/11/12`. 
+
+4. `Skip` the preset installation step, we will do this manually.
+
+5. When it asks you to select effect packages to install, again simply `Skip` the step. We don't want to install these shaders as it may conflict with the ones included with my IpsuShade package.
+
+6. You should now have a working ReShade install for FFXIV. However, it will have no presets or shaders. Follow the steps below to install IpsuShade.
+
+<hr>
+
 ## How do I use the Ipsusu Presets on a fresh ReShade install?
 
 <h3 align="center"> <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_ReShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a fresh ReShade install. </a> </h3>
 
-When installing to a fresh ReShade install, simply drag and drop the folders included in the .zip file downloaded by clicking the link above into your FFXIV installation directory and merge / overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
+1. Download the zip of IpsuShade for ReShade folder names in the link above.
+2. While FFXIV is not running, drag and drop the two folders found inside in the `IpsuShade_ReShadeFolderRelease.zip` into your FFXIV installation directory. Be sure to and merge / overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
 
-For the Steam version, this is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
+    - For the Steam version, your directory is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
 
-For the Windows version, this is most likely: `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\`
+    - For the Windows version, your directory is most likely: `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\`
 
-### Note: The existing folders should be named `reshade-presets` and `reshade-shaders`. If they are called `gshade-presets` and `gshade-shaders` please read the section below as you have an installation that has been migrated from a GShade install.
+#### Note. The existing folders should be named `reshade-presets` and `reshade-shaders`. If they are called `gshade-presets` and `gshade-shaders` please read the <a href="https://github.com/ipsusu/IpsuShade/edit/master/README.md#how-do-i-use-the-ipsusu-presets-if-i-migrated-from-a-gshade-install">section below</a> as you have an installation that has been migrated from a GShade install.
 
-<h3> TEMPORARY DISCLAIMER STEP: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder into your <code>reshade-shaders</code> folder </h3>
+3. ***TEMPORARY STEP FROM THE ABOVE DISCLAIMER***: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder into your <code>reshade-shaders</code> folder. 
 
-Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
+4. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
 
-Simply double click any of the `.ini` presets to enable them. Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
+5. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade/edit/master/README.md#what-is-ipsushade">here</a> about an explaination of the presets.
+    - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
 
+6. ***TEMPORARY STEP FROM THE ABOVE DISCLAIMER***: To add the indended extra shadows on my Ultimate presets, scroll down the shader list and enable <code>MXAO [qUINT_mxao.fx]</code>. 
+      - Drag it in the list so it is just above <code>MXAO [MXAO 4.0.2 EX.fx]</code> but below <code>Glamarye_Fast_Effects_with_Fake_GI</code> 
+      - You can also right click `qUINT_mxao` and "Move to top" to make this easier, but be sure to drag it below Glamarye_Fast_Effects / above MXAO 4.0.2 EX after!.
+      
+7. You should now have a perfectly working install of IpsuShade.
 <br>
 
 ## How do I use the Ipsusu Presets if I migrated from a GShade install?
 
 The Ipsusu presets were originally (and, technically currently) included with a GShade install. 
 
-As such, <i>you should already have the presets</i> and you will be able to find them in the <b>gshade-presets\Ipsusu\ </b> folder (just scroll down a bit and click the "Ipsusu" folder). Simply double click any of the .ini presets to enable them. 
+As such, <i>you should already have the presets</i> and you will be able to find them in the `gshade-presets\Ipsusu\` folder!
+
+1. Click the `gshade-presets` folder from your migrated install and scroll down to find the `Ipsusu` folder.
+
+2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade/edit/master/README.md#what-is-ipsushade">here</a> about an explaination of the presets.
 
 Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
 <h3>At the time of writing (2023-02-07), my <code>Screenie</code> and <code>Ultimate</code> presets have been updated from the included GShade release. </h3>
 
-Due to the current state of GShade, you must manually update these by downloading the folder below and overwriting these presets in your `gshade-presets\Ipsusu` folder. You should not need to update the `gshade-shaders` but there is no harm in this as they are the exact same versions as included.  
+Due to the current state of GShade, you must manually update these by downloading the folder below and overwriting these presets in your `gshade-presets\Ipsusu` folder. You should not need to update the `gshade-shaders` but there is no harm in this as they are the exact same versions as included.
 
-#### <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_GShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a ReShade install migrated from GShade. </a>
+If the guide you followed or program you used to migrate renamed your presets and shader folders from `gshade-xxxxxx` to `reshade-xxxxxx`, use the download in the <a href="https://github.com/ipsusu/IpsuShade/edit/master/README.md#how-do-i-use-the-ipsusu-presets-on-a-fresh-reshade-install">prior section</a>.
+
+If you still have a `gshade-presets` and `gshade-shaders` folder: 
+
+<a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_GShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files using the gshade-presets and gshade-shaders folder names. </a>
 
 <br>
 
 ## Common issues when migrating from a GShade install to ReShade.
 
-Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReshade</a> tool had a bug where it didn't bring your textures over from GShade.
+Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
 
 Here are a couple of common issues and solutions:
 
