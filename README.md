@@ -102,3 +102,8 @@ You can donate or tip me some lunch money here:
 ## Contact
 
 You can contact me easiest on my <a href='https://twitter.com/ipsusu'>Twitter</a>. Just send me a DM.
+
+FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
+© SQUARE ENIX CO., LTD. All Rights Reserved.
+
+
