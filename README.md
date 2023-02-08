@@ -17,10 +17,6 @@ At the current time I am unsure about permission to redistribute the Marty Mcfly
 <h3>
 While I wait for a response, you must download them from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and merge the <code>Shaders</code> folder with the one found inside your <code>reshade-shaders</code> or <code>gshade-shaders</code>. This is explained in the guide below, so you are okay just to follow those steps.  
 </h3>
-<h4>There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name of the version in the qUINT .zip being slightly different from the GShade version.</h3>
-<h4>
-Please follow the appropriate "disclaimer steps" listed in the guide to deal with these temporary(?) issues.
-</h4>
 <h4>
 My presets will NOT WORK AS INTENDED if you skip these steps, and certain presets will lack shadows and may look too dark (especially Ultimate Crystal & Vanilla)
 </h4>
@@ -73,18 +69,14 @@ These colours are:
 
 #### Note. The existing folders should be named `reshade-presets` and `reshade-shaders`. If they are called `gshade-presets` and `gshade-shaders` please read the <a href="https://github.com/ipsusu/IpsuShade#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install">section below</a> as you have an installation that has been migrated from a GShade install.
 
-3. ***TEMPORARY STEP FROM THE ABOVE DISCLAIMER***: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder into your <code>reshade-shaders</code> folder. 
+3. ***TEMPORARY STEP FROM THE ABOVE  Marty Mcfly qUINT  DISCLAIMER***: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder into your <code>reshade-shaders</code> folder. 
 
 4. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
 
 5. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explaination of the presets.
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
-
-6. ***TEMPORARY STEP FROM THE ABOVE DISCLAIMER***: To add the indended extra shadows on my Ultimate presets, scroll down the shader list and enable <code>MXAO [qUINT_mxao.fx]</code>. 
-      - Drag it in the list so it is just above <code>MXAO [MXAO 4.0.2 EX.fx]</code> but below <code>Glamarye_Fast_Effects_with_Fake_GI</code> 
-      - You can also right click `qUINT_mxao` and "Move to top" to make this easier, but be sure to drag it below Glamarye_Fast_Effects / above MXAO 4.0.2 EX after!.
-      
-7. You should now have a perfectly working install of IpsuShade.
+ 
+6. You should now have a perfectly working install of IpsuShade.
 <br>
 
 ## How do I use the Ipsusu Presets (IpsuShade) if I migrated from a GShade install?
@@ -119,17 +111,31 @@ Here are a couple of common issues and solutions:
 
 - <b>My screen is black when I try and load your presets!!!</b>
 
-This is due to the MultiLUT shader not being able to find the <a href="https://github.com/ipsusu/IpsuShade/blob/master/Textures/MultiLut_Ipsusu.png">MultiLUT_Ipsusu.png</a> texture file. This is either due to your installation not having a `Texture search path` set in the ReShade settings overlay, or you somehow do not have my texture file in the linked folder.
+    This is due to the MultiLUT shader not being able to find the <a href="https://github.com/ipsusu/IpsuShade/blob/master/Textures/MultiLut_Ipsusu.png">MultiLUT_Ipsusu.png</a> texture file. This is either due to your installation not having a `Texture search path` set in the ReShade settings overlay, or you somehow do not have my texture file in the linked folder.
 
-**Solution**: Link the `gshade-shaders\Textures` or `reshade-shaders\Textures`  folder under `Texture search paths` in the ReShade overlay while ingame. (if you don't have this folder, it is included in the download in the above step). If you don't have the texture file somehow, it's also included in this download.
+    **Solution**: Link the `gshade-shaders\Textures` or `reshade-shaders\Textures`  folder under `Texture search paths` in the ReShade overlay while ingame. (if you don't have this folder, it is included in the download in the above step). If you don't have the texture file somehow, it's also included in this download.
 
 - <b>I try and load one of your presets and the colours are all messed up / way brighter than I remember!!!</b>
 
-This (is probably) due to you having multiple copies of certain shaders linked in the `Effect search paths` in the ReShade settings tab of the Overlay.
-This (is probably) caused by doing a "default" install of ReShade, and having both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings.
-As such, you're applying 2x the MultiLUT colour and it's not enjoying itself.
+    This (is probably) due to you having multiple copies of certain shaders linked in the `Effect search paths` in the ReShade settings tab of the Overlay.
+    This (is probably) caused by doing a "default" install of ReShade, and having both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings.
+    As such, you're applying 2x the MultiLUT colour and it's not enjoying itself.
 
-**Solution**: Unlink/delete the `reshade-shaders` folder under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the reshade-shaders folder in your XIV `game` folder so you don't get confused and try installing something to it in the future. 
+    **Solution**: Unlink/delete the `reshade-shaders` folder under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the reshade-shaders folder in your XIV `game` folder so you don't get confused and try installing something to it in the future. 
+
+- <b>My HUD gauges have a weird grey box around them! This didn't happen in GShade!</b> (image below)
+
+    <img src="https://i.imgur.com/tANpywx.png"></img>
+
+    I believe this a bug with ReShade / is occuring due to how GShade had some special code that interfaced with the `FFKeepUI` shader to avoid applying the shader to certain UI elements.
+
+    **This can be solved by either**:
+    
+     - Turning the HUD element into it's "simple" mode.
+     
+     OR
+     - Disabling the `FFKeepUI` and `FFRestoreUI` shaders in the preset.
+
 
 ## Donate
 
@@ -140,6 +146,8 @@ You can donate or tip me some lunch money here:
 ## Contact
 
 You can contact me easiest on my <a href='https://twitter.com/ipsusu'>Twitter</a>. Just send me a DM.
+
+## XIV Materials Usage
 
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
 © SQUARE ENIX CO., LTD. All Rights Reserved.
