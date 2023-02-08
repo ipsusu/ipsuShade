@@ -59,7 +59,7 @@ These colours are:
 
 <hr>
 
-## How do I use the Ipsusu Presets on a fresh ReShade install?
+## How do I use the Ipsusu Presets (IpsuShade) on a fresh ReShade install?
 
 <h3 align="center"> <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_ReShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a fresh ReShade install. </a> </h3>
 
@@ -76,7 +76,7 @@ These colours are:
 
 4. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
 
-5. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade/edit/master/README.md#what-is-ipsushade">here</a> about an explaination of the presets.
+5. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explaination of the presets.
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
 
 6. ***TEMPORARY STEP FROM THE ABOVE DISCLAIMER***: To add the indended extra shadows on my Ultimate presets, scroll down the shader list and enable <code>MXAO [qUINT_mxao.fx]</code>. 
@@ -86,7 +86,7 @@ These colours are:
 7. You should now have a perfectly working install of IpsuShade.
 <br>
 
-## How do I use the Ipsusu Presets if I migrated from a GShade install?
+## How do I use the Ipsusu Presets (IpsuShade) if I migrated from a GShade install?
 
 The Ipsusu presets were originally (and, technically currently) included with a GShade install. 
 
@@ -94,7 +94,7 @@ As such, <i>you should already have the presets</i> and you will be able to find
 
 1. Click the `gshade-presets` folder from your migrated install and scroll down to find the `Ipsusu` folder.
 
-2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade/edit/master/README.md#what-is-ipsushade">here</a> about an explaination of the presets.
+2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explaination of the presets.
 
 Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
