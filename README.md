@@ -131,7 +131,7 @@ Here are a couple of common issues and solutions:
 
     **This can be solved by either**:
     
-     - Turning the HUD element into it's "simple" mode.
+     - Turning the HUD element into it's "simple" mode through the ingame HUD Layout settings.
      
      OR
      - Disabling the `FFKeepUI` and `FFRestoreUI` shaders in the preset.
