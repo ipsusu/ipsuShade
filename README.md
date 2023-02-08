@@ -19,7 +19,7 @@ While I wait for a response, you must download them from <a href='https://github
 </h3>
 <h3>There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name of the version in the qUINT .zip being slightly different from the GShade version.</h3>
 <h4>
-To fix this: Simply scroll down the list, enable <code>MXAO [qUINT_mxao.fx]</code> and drag it just above <code>MXAO [MXAO 4.0.2 EX.fx]</code> (you can also right click and "Move to top" to make this easier, but be sure to drag it below FFKeepUI after).
+Please follow the appropriate "disclaimer steps" listed in the guide to deal with this temporary(?) issue.
 </h4>
 <h3>
 My presets will NOT WORK AS INTENDED if you skip these steps, and certain presets will lack shadows and may look too dark (especially Ultimate Crystal & Vanilla)
