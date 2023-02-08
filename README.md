@@ -15,15 +15,15 @@
 At the current time I am unsure about permission to redistribute the Marty Mcfly qUINT shader collection, which is used in my Questing, Screenie and Ultimate presets. 
 </h3>
 <h3>
-While I wait for a response, you must download them from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and merge the <code>Shaders</code> folder with the one found inside your <code>reshade-shaders</code> or <code>gshade-shaders</code> folder after following the appropriate guide below.  
+While I wait for a response, you must download them from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and merge the <code>Shaders</code> folder with the one found inside your <code>reshade-shaders</code> or <code>gshade-shaders</code>. This is explained in the guide below, so you are okay just to follow those steps.  
 </h3>
-<h3>There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name of the version in the qUINT .zip being slightly different from the GShade version.</h3>
+<h4>There is also currently an issue where my Ultimate presets will not enable <code>qUINT_mxao.fx</code> above <code>MXAO 4.0.2 EX.fx</code> due to the shader name of the version in the qUINT .zip being slightly different from the GShade version.</h3>
 <h4>
-Please follow the appropriate "disclaimer steps" listed in the guide to deal with this temporary(?) issue.
+Please follow the appropriate "disclaimer steps" listed in the guide to deal with these temporary(?) issues.
 </h4>
-<h3>
+<h4>
 My presets will NOT WORK AS INTENDED if you skip these steps, and certain presets will lack shadows and may look too dark (especially Ultimate Crystal & Vanilla)
-</h3>
+</h4>
 <br>
 
 ## What is IpsuShade?
