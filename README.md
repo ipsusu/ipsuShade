@@ -70,7 +70,7 @@ These colours are:
 
     - For the Windows version, your directory is most likely: `C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\`
 
-#### Note. The existing folders should be named `reshade-presets` and `reshade-shaders`. If they are called `gshade-presets` and `gshade-shaders` please read the <a href="https://github.com/ipsusu/IpsuShade/edit/master/README.md#how-do-i-use-the-ipsusu-presets-if-i-migrated-from-a-gshade-install">section below</a> as you have an installation that has been migrated from a GShade install.
+#### Note. The existing folders should be named `reshade-presets` and `reshade-shaders`. If they are called `gshade-presets` and `gshade-shaders` please read the <a href="https://github.com/ipsusu/IpsuShade#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install">section below</a> as you have an installation that has been migrated from a GShade install.
 
 3. ***TEMPORARY STEP FROM THE ABOVE DISCLAIMER***: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder into your <code>reshade-shaders</code> folder. 
 
@@ -102,7 +102,7 @@ Click the two dots at the top (the "..") to go back to the main folder if you wo
 
 Due to the current state of GShade, you must manually update these by downloading the folder below and overwriting these presets in your `gshade-presets\Ipsusu` folder. You should not need to update the `gshade-shaders` but there is no harm in this as they are the exact same versions as included.
 
-If the guide you followed or program you used to migrate renamed your presets and shader folders from `gshade-xxxxxx` to `reshade-xxxxxx`, use the download in the <a href="https://github.com/ipsusu/IpsuShade/edit/master/README.md#how-do-i-use-the-ipsusu-presets-on-a-fresh-reshade-install">prior section</a>.
+If the guide you followed or program you used to migrate renamed your presets and shader folders from `gshade-xxxxxx` to `reshade-xxxxxx`, use the download in the <a href="https://github.com/ipsusu/IpsuShade#how-do-i-use-the-ipsusu-presets-ipsushade-on-a-fresh-reshade-install">prior section</a>.
 
 If you still have a `gshade-presets` and `gshade-shaders` folder: 
 
