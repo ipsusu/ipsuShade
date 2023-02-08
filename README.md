@@ -123,7 +123,7 @@ Here are a couple of common issues and solutions:
 
     **Solution**: Unlink/delete the `reshade-shaders` folder under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the reshade-shaders folder in your XIV `game` folder so you don't get confused and try installing something to it in the future. 
 
-- <b>My HUD gauges have a weird grey box around them! This didn't happen in GShade!</b> (image below)
+- <b>My XIV HUD job gauges have a weird grey box around them! This didn't happen in GShade!</b> (image below)
 
     <img src="https://i.imgur.com/tANpywx.png"></img>
 
