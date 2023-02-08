@@ -55,6 +55,7 @@ Once in-game, open the ReShade overlay (by pressing the `Home` key by default) a
 
 Simply double click any of the `.ini` presets to enable them. Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
 
+<br>
 
 ## How do I use the Ipsusu Presets if I migrated from a GShade install?
 
@@ -69,6 +70,8 @@ Click the two dots at the top (the "..") to go back to the main folder if you wo
 Due to the current state of GShade, you must manually update these by downloading the folder below and overwriting these presets in your `gshade-presets\Ipsusu` folder. You should not need to update the `gshade-shaders` but there is no harm in this as they are the exact same versions as included.  
 
 #### <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_GShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a ReShade install migrated from GShade. </a>
+
+<br>
 
 ## Common issues when migrating from a GShade install to ReShade.
 
