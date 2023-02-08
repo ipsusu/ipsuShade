@@ -45,13 +45,15 @@ These colours are:
 
 1. Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade, specifically the `with full add-on support` version. This is version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and nice things to do with lighting and shadows.
 
-2. Select the `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. Ensure it's the `ffxiv_dx11.exe` one and not `ffxiv.exe` or `ffxivboot.exe`. 
+2. Select the `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
+    - Ensure it's the `ffxiv_dx11.exe` one and not `ffxiv.exe` or `ffxivboot.exe`. 
 
 3. For the rending API step, select `Microsoft DirectX 10/11/12`. 
 
 4. `Skip` the preset installation step, we will do this manually.
 
-5. When it asks you to select effect packages to install, again simply `Skip` the step. We don't want to install these shaders as it may conflict with the ones included with my IpsuShade package.
+5. When it asks you to select effect packages to install, again simply `Skip` the step. 
+    - We don't want to install these shaders as it may conflict with the ones included with my IpsuShade package.
 
 6. You should now have a working ReShade install for FFXIV. However, it will have no presets or shaders. Follow the steps below to install IpsuShade.
 
