@@ -18,7 +18,7 @@ At the current time I am unsure about permission to redistribute the Marty Mcfly
 While I wait for a response, you must download them from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and merge the <code>Shaders</code> folder with the one found inside your <code>reshade-shaders</code> or <code>gshade-shaders</code>. This is explained in the guide below, so you are okay just to follow those steps.  
 </h3>
 <h4 align="center">
-My presets will NOT WORK AS INTENDED if you skip these steps, and certain presets will lack shadows and may look too dark (especially Ultimate Crystal & Vanilla)
+My Ultimate presets will lack certain intended shadows if you skip these steps, and certain presets may look too dark (Crystal & Vanilla).
 </h4>
 <br>
 
