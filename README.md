@@ -117,11 +117,14 @@ Here are a couple of common issues and solutions:
 
 - <b>I try and load one of your presets and the colours are all messed up / way brighter than I remember!!!</b>
 
+    This seems to be exclusively a GShade to ReShade migration issue.
     This (is probably) due to you having multiple copies of certain shaders linked in the `Effect search paths` in the ReShade settings tab of the Overlay.
-    This (is probably) caused by doing a "default" install of ReShade, and having both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings.
-    As such, you're applying 2x the MultiLUT colour and it's not enjoying itself.
+    This (is probably) caused by doing a "default" install of ReShade which installs the SweetFX shaders meaning you have both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings.
+    As such, you're applying 2x the `MultiLUT` shader's colour and it's not enjoying itself.
 
-    **Solution**: Unlink/delete the `reshade-shaders` folder under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the reshade-shaders folder in your XIV `game` folder so you don't get confused and try installing something to it in the future. 
+    **Solution**: If you have a `gshade-shaders` folder, unlink/delete the `reshade-shaders` folder under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
+    
+    If you only have a `reshade-shaders` folder, you might have duplicate MultiLUT shaders in that folder somehow.
 
 - <b>My XIV HUD job gauges have a weird grey box around them! This didn't happen in GShade!</b> (image below)
 
