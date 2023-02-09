@@ -103,7 +103,7 @@ If you still have a `gshade-presets` and `gshade-shaders` folder:
 
 <br>
 
-## Common issues when migrating from a GShade install to ReShade.
+## Troubleshooting and Common Issues (especially when migrating from GShade).
 
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
 
