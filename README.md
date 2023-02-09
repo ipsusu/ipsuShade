@@ -63,7 +63,7 @@ These colours are:
 <h3 align="center"> <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_ReShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a fresh ReShade install. </a> </h3>
 
 1. Download the zip of IpsuShade for ReShade folder names in the link above.
-2. While FFXIV is not running, drag and drop the two folders found inside in the `IpsuShade_ReShadeFolderRelease.zip` into your FFXIV installation directory. Be sure to and merge / overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
+2. Drag and drop the two folders found inside in the `IpsuShade_ReShadeFolderRelease.zip` into your FFXIV installation directory. Be sure to and merge / overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
 
     - For the Steam version, your directory is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
 
@@ -74,6 +74,7 @@ These colours are:
 3. ***TEMPORARY STEP FROM THE ABOVE  Marty Mcfly qUINT  DISCLAIMER***: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder found inside that .zip download into your <code>reshade-shaders</code> folder. 
 
 4. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
+    - If you dragged the files while the game was still open, you need to press `Reload` on the bottom left of the overlay to get them to show up.
 
 5. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explaination of the presets.
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
