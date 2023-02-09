@@ -89,7 +89,7 @@ As such, <i>you should already have the presets</i> and you will be able to find
 
 2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explaination of the presets.
 
-Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
+    - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
 <h3>At the time of writing (2023-02-07), my <code>Screenie</code> and <code>Ultimate</code> presets have been updated from the included GShade release. </h3>
 
