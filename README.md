@@ -122,7 +122,7 @@ Here are a couple of common issues and solutions:
     This (is probably) caused by doing a "default" install of ReShade which installs the SweetFX shaders meaning you have both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings.
     As such, you're applying 2x the `MultiLUT` shader's colour and it's not enjoying itself.
 
-    **Solution**: If you have a `gshade-shaders` folder, unlink/delete the `reshade-shaders` folder under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
+    **Solution**: If you have a `gshade-shaders` folder, delete the `reshade-shaders` folder entry under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
     
     If you only have a `reshade-shaders` folder, you might have duplicate MultiLUT shaders in that folder somehow.
 
@@ -138,6 +138,12 @@ Here are a couple of common issues and solutions:
      
      OR
      - Disabling the `FFKeepUI` and `FFRestoreUI` shaders in the preset.
+
+- <b>The shadows on the Screenie and Ultimate presets are too dark!!!</b>
+
+    Due to how the GShade and ReShade versions of `qUINT_mxao.fx` are named internally, my preset must enable the file if named simply `MXAO` (the official name) or `qMXAO` (what GShade calls the shader). If you have both `gshade-shaders` and another folder (i.e., `reshade-shaders`) linked in your install with the IpsuShade release of this shader, both versions of this shader will be enabled at once, and as such will apply double the effect of this shader (adding shadows).
+
+    **Solution**: Disable either one of the `MXAO [qUINT_mxao.fx]` or `qMXAO [qUINT_mxao.fx]` found in the shader list of the preset. You should probably also delete the `reshade-shaders` folder entry under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
 
 
 ## Donate
