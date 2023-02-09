@@ -10,3 +10,5 @@ It is highly unlikely that I would object to any proposal, I'd just like to be a
 any users will be experiencing the best versions of my work. 
 
 The shaders used within this project have their own licenses, which you should refer to if dealing with these files outside of personal use.
+
+The textures in this project are used in accordance with specific license agreements or with permission of their creators. Please contact me if you are looking at redistributing any of the texture files within this project (with the exception of my `MultiLut_Ipsusu.png`), and I will inform you of the specific licenses.
