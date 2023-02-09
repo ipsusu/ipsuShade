@@ -49,7 +49,7 @@ These colours are:
 
 4. `Skip` the preset installation step, we will do this manually.
 
-5. When it asks you to select effect packages to install, you must click the 'Uncheck All' in the top right of the window. 
+5. When it asks you to select effect packages to install, you must click the `Uncheck All` in the top right of the window. 
     - We don't want to install the SweetFX shaders as it causes a conflict with the ones included with my IpsuShade package.
     - If we simply `Skip` this step, it doesn't create the links we need in ReShade to automatically detect the shader files in IpsuShade. 
 
