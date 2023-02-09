@@ -42,7 +42,7 @@ These colours are:
 2. Select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
     - Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe`. 
 
-3. For the rending API step, select `Microsoft DirectX 10/11/12`. 
+3. For the rendering API step, select `Microsoft DirectX 10/11/12`. 
 
 4. `Skip` the preset installation step, we will do this manually.
 
