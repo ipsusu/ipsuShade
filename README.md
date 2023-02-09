@@ -12,7 +12,7 @@
 <h1 align="center">  !!! DISCLAIMER - PLEASE READ BEFORE CONTINUING !!! </h1>
 
 <h3 align="center">
-At the current time I am unsure about permission to redistribute the Marty Mcfly qUINT shader collection, which is used in my Questing, Screenie and Ultimate presets. 
+At the current time I am unsure about permission to redistribute the Marty Mcfly qUINT shader collection, which is used in my Screenie and Ultimate presets. 
 </h3>
 <h3 align="center">
 While I wait for a response, you must download them from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and merge the <code>Shaders</code> folder with the one found inside your <code>reshade-shaders</code> or <code>gshade-shaders</code>. This is explained in the guide below, so you are okay just to follow those steps.  
