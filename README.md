@@ -12,7 +12,7 @@
 <h1 align="center">  !!! DISCLAIMER - PLEASE READ BEFORE CONTINUING !!! </h1>
 
 <h3 align="center">
-At the current time I am unsure about permission to redistribute the Marty Mcfly qUINT shader collection, which is used in my Screenie and Ultimate presets. 
+At the current time I am unsure about permission to redistribute the Marty Mcfly qUINT shader collection, which is used in my Ultimate presets. 
 </h3>
 <h3 align="center">
 While I wait for a response, you must download them from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and merge the <code>Shaders</code> folder with the one found inside your <code>reshade-shaders</code> or <code>gshade-shaders</code>. This is explained in the guide below, so you are okay just to follow those steps.  
@@ -42,8 +42,8 @@ These colours are:
 1. Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade, specifically the `with full add-on support` version. 
     - This is version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and nice things to do with lighting and shadows.
 
-2. Select the `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
-    - Ensure it's the `ffxiv_dx11.exe` one and not `ffxiv.exe` or `ffxivboot.exe`. 
+2. Select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
+    - Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe`. 
 
 3. For the rending API step, select `Microsoft DirectX 10/11/12`. 
 
@@ -51,7 +51,7 @@ These colours are:
 
 5. When it asks you to select effect packages to install, you must click the `Uncheck All` in the top right of the window. 
     - We don't want to install the SweetFX shaders as it causes a conflict with the ones included with my IpsuShade package.
-    - But, if we simply `Skip` this step, it doesn't create the links we need in ReShade to automatically detect the shader files in IpsuShade. (So don't do that!)
+    - But, if we simply `Skip` this step, it doesn't create the links we need in ReShade to automatically detect the shader files in IpsuShade. (So, don't do that!)
 
 6. You should now have a working ReShade install for FFXIV. However, it will have no presets or shaders. 
     - Follow the steps below to install IpsuShade!
