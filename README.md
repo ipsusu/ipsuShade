@@ -21,7 +21,7 @@ My Ultimate presets will lack certain intended shadows if you skip these steps, 
 
 ## What is IpsuShade?
 
-IpsuShade is a ReShade preset collection that aims to deliver both maximum quality at maximum FPS with the `Gameplay`, `GameplayLite` and `Questing` preset types, but also with high fidelity screenshot preset types such as `Screenie` and `Ultimate`.
+IpsuShade is a ReShade preset collection (with GShade support) that aims to deliver both maximum quality at maximum FPS with the `Gameplay`, `GameplayLite` and `Questing` preset types, but also with high fidelity screenshot preset types such as `Screenie` and `Ultimate`.
 
 <img src="https://i.imgur.com/0h3bTyM.png">
 
