@@ -3,14 +3,10 @@
   <h3 align="center"> ReShade / GShade presets for Final Fantasy XIV.</p>
 <!--- <p align="center">
     <img width="50%" src="https://i.imgur.com/vGikwdM.png">
-  </p> ---!>
+  </p> --->
 </p>
 
-<br>
-
-
-<h1 align="center">  !!! DISCLAIMER - PLEASE READ BEFORE CONTINUING !!! </h1>
-
+<!-- <h1 align="center">  !!! DISCLAIMER - PLEASE READ BEFORE CONTINUING !!! </h1>
 <h3 align="center">
 At the current time I am unsure about permission to redistribute the Marty Mcfly qUINT shader collection, which is used in my Ultimate presets. 
 </h3>
@@ -19,8 +15,9 @@ While I wait for a response, you must download them from <a href='https://github
 </h3>
 <h4 align="center">
 My Ultimate presets will lack certain intended shadows if you skip these steps, and certain presets may look too dark (Crystal & Vanilla).
-</h4>
-<br>
+</h4> -->
+
+
 
 ## What is IpsuShade?
 
@@ -71,15 +68,15 @@ These colours are:
 
 #### Note. The existing folders should be named `reshade-presets` and `reshade-shaders`. If they are called `gshade-presets` and `gshade-shaders` please read the <a href="https://github.com/ipsusu/IpsuShade#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install">section below</a> as you have an installation that has been migrated from a GShade install.
 
-3. ***TEMPORARY STEP FROM THE ABOVE  Marty Mcfly qUINT  DISCLAIMER***: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder found inside that .zip download into your <code>reshade-shaders</code> folder. 
+<!-- 3. ***TEMPORARY STEP FROM THE ABOVE  Marty Mcfly qUINT  DISCLAIMER***: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder found inside that .zip download into your <code>reshade-shaders</code> folder. -->
 
-4. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
+3. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
     - If you dragged the files while the game was still open, you need to press `Reload` on the bottom left of the overlay to get them to show up.
 
-5. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explaination of the presets.
+4. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explaination of the presets.
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
  
-6. You should now have a perfectly working install of IpsuShade.
+5. You should now have a perfectly working install of IpsuShade.
 <br>
 
 ## How do I use the Ipsusu Presets (IpsuShade) if I migrated from a GShade install?
