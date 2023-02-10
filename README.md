@@ -138,6 +138,9 @@ Here are a couple of common issues and solutions:
      
      OR
      - Disabling the `FFKeepUI` and `FFRestoreUI` shaders in the preset.
+     
+     OR
+     - Experimental solution: Using the experimental `ReshadeEffectShaderToggler-FFXIV_UIONLY` addon for ReShade: <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV_UIONLY">Here.</a>
 
 - <b>The shadows on the Screenie and Ultimate presets are too dark.</b>
 
