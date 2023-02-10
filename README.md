@@ -144,7 +144,20 @@ Here are a couple of common issues and solutions:
     Due to how the GShade and ReShade versions of `qUINT_mxao.fx` are named internally, my preset must enable the file if named simply `MXAO` (the official name) or `qMXAO` (what GShade calls the shader). If you have both `gshade-shaders` and another folder (i.e., `reshade-shaders`) linked in your install with the IpsuShade release of this shader, both versions of this shader will be enabled at once, and as such will apply double the effect of this shader (adding shadows).
 
     **Solution**: Disable either one of the `MXAO [qUINT_mxao.fx]` or `qMXAO [qUINT_mxao.fx]` found in the shader list of the preset. You should probably also delete the `reshade-shaders` folder entry under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
+    
+    - <b>There is a weird ghost effect of my character and shadows when ReShade/IpsuShade is enabled!</b>
 
+    This is an issue with ReShade not being compatible with the dynamic resolution setting ingame. Please disable this ingame setting if you are having ghosting issues.
+
+    **Solution**: In-game FFXIV Graphics Settings -> Enable dynamic resolution: `Off`
+
+## Required FFXIV in-game graphics settings:
+
+- Enable dynamic resolution: `Off`
+
+- Edge Smoothing (Anti-Aliasing): `FXAA`
+
+- Naturally darken the edges of the screen. (Limb Darkening): `Off`
 
 ## Donate
 
