@@ -60,7 +60,7 @@ These colours are:
 <h3 align="center"> <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_ReShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a fresh ReShade install. </a> </h3>
 
 1. Download the `.zip` of IpsuShade with ReShade folder names through the link above.
-2. Drag and drop the two folders found inside the `IpsuShade_ReShadeFolderRelease.zip` into your FFXIV installation directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
+2. Drag and drop the two folders found inside the `IpsuShade_ReShadeFolderRelease.zip` into your FFXIV installation `\game\` directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
 
     - For the Steam version, your directory is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
 
