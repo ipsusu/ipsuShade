@@ -37,7 +37,7 @@ These colours are:
 ### Brief ReShade install guide for FFXIV.
 
 1. Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade, specifically the `with full add-on support` version. 
-    - This is version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and nice things to do with lighting and shadows.
+    - This is the version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and improved lighting and shadows.
 
 2. Select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
     - Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe`. 
@@ -59,8 +59,8 @@ These colours are:
 
 <h3 align="center"> <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_ReShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a fresh ReShade install. </a> </h3>
 
-1. Download the `.zip` of IpsuShade for ReShade folder names through the link above.
-2. Drag and drop the two folders found inside in the `IpsuShade_ReShadeFolderRelease.zip` into your FFXIV installation directory. Be sure to and merge / overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
+1. Download the `.zip` of IpsuShade with ReShade folder names through the link above.
+2. Drag and drop the two folders found inside the `IpsuShade_ReShadeFolderRelease.zip` into your FFXIV installation directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
 
     - For the Steam version, your directory is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
 
