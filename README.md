@@ -172,8 +172,8 @@ You can donate or tip me some lunch money here:
 
 You can contact me easiest on my <a href='https://twitter.com/ipsusu'>Twitter</a>. Just send me a DM.
 
-If you don't have Twitter, you can find and DM me on Discord. 
- - I'm "ipsusu" in most xiv community servers (not putting my Discord ID here for bot scraping reasons!)
+If you don't have Twitter you can find and DM me on Discord. 
+ - I'm "ipsusu" in most XIV community servers (not putting my Discord ID here for bot scraping reasons!)
 
 I also check my <a href="https://reddit.com/user/ipsusu/">Reddit</a> DMs semi-regularly.
 
