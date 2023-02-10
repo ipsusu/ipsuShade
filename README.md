@@ -109,13 +109,13 @@ Certain people's installations of ReShade are a bit borked because early guides 
 
 Here are a couple of common issues and solutions:
 
-- <b>My screen is black when I try and load your presets!!!</b>
+- <b>My screen is black when I try and load your presets.</b>
 
     This is due to the MultiLUT shader not being able to find the <a href="https://github.com/ipsusu/IpsuShade/blob/master/Textures/MultiLut_Ipsusu.png">MultiLUT_Ipsusu.png</a> texture file. This is either due to your installation not having a `Texture search path` set in the ReShade settings overlay, or you somehow do not have my texture file in the linked folder.
 
     **Solution**: Link the `gshade-shaders\Textures` or `reshade-shaders\Textures`  folder under `Texture search paths` in the ReShade overlay while ingame. (if you don't have this folder, it is included in the download in the above step). If you don't have the texture file somehow, it's also included in this download.
 
-- <b>I try and load one of your presets and the colours are all messed up / way brighter than I remember!!!</b>
+- <b>I try and load one of your presets and the colours are all messed up / way brighter than I remember.</b>
 
     This seems to be exclusively a GShade to ReShade migration issue.
     This (is probably) due to you having multiple copies of certain shaders linked in the `Effect search paths` in the ReShade settings tab of the Overlay.
@@ -126,7 +126,7 @@ Here are a couple of common issues and solutions:
     
     If you only have a `reshade-shaders` folder, you might have duplicate MultiLUT shaders in that folder somehow.
 
-- <b>My XIV HUD job gauges have a weird grey box around them! This didn't happen in GShade!</b> (image below)
+- <b>My XIV HUD job gauges have a weird grey box around them, this didn't happen in GShade!</b> (image below)
 
     <img src="https://i.imgur.com/tANpywx.png"></img>
 
@@ -139,15 +139,15 @@ Here are a couple of common issues and solutions:
      OR
      - Disabling the `FFKeepUI` and `FFRestoreUI` shaders in the preset.
 
-- <b>The shadows on the Screenie and Ultimate presets are too dark!!!</b>
+- <b>The shadows on the Screenie and Ultimate presets are too dark.</b>
 
     Due to how the GShade and ReShade versions of `qUINT_mxao.fx` are named internally, my preset must enable the file if named simply `MXAO` (the official name) or `qMXAO` (what GShade calls the shader). If you have both `gshade-shaders` and another folder (i.e., `reshade-shaders`) linked in your install with the IpsuShade release of this shader, both versions of this shader will be enabled at once, and as such will apply double the effect of this shader (adding shadows).
 
     **Solution**: Disable either one of the `MXAO [qUINT_mxao.fx]` or `qMXAO [qUINT_mxao.fx]` found in the shader list of the preset. You should probably also delete the `reshade-shaders` folder entry under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
     
-    - <b>There is a weird ghost effect of my character and shadows when ReShade/IpsuShade is enabled!</b>
+- <b>There is a weird ghost effect of my character and shadows when ReShade/IpsuShade is enabled?</b>
 
-    This is an issue with ReShade not being compatible with the dynamic resolution setting ingame. Please disable this ingame setting if you are having ghosting issues.
+  This is an issue with ReShade not being compatible with the dynamic resolution setting ingame. Please disable this ingame setting if you are having ghosting issues.
 
     **Solution**: In-game FFXIV Graphics Settings -> Enable dynamic resolution: `Off`
 
