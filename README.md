@@ -119,7 +119,7 @@ Here are a couple of common issues and solutions:
 
     This seems to be exclusively a GShade to ReShade migration issue.
     This (is probably) due to you having multiple copies of certain shaders linked in the `Effect search paths` in the ReShade settings tab of the Overlay.
-    This (is probably) caused by doing a "default" install of ReShade which installs the SweetFX shaders meaning you have both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings.
+    This (is probably) caused by doing a "default" install of ReShade which installs some crosire and SweetFX shaders, meaning you have both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings.
     As such, you're applying 2x the `MultiLUT` shader's colour and it's not enjoying itself.
 
     **Solution**: If you have a `gshade-shaders` folder, delete the `reshade-shaders` folder entry under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
