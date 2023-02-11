@@ -7,7 +7,7 @@
 ## Table of Contents
 
 - [What is IpsuShade?](#what-is-ipsushade)
-  * [Brief ReShade install guide for FFXIV.](#brief-reshade-install-guide-for-ffxiv)
+- [Brief ReShade install guide for FFXIV.](#brief-reshade-install-guide-for-ffxiv)
 - [How do I use the Ipsusu Presets (IpsuShade) on a fresh ReShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install)
 - [How do I use the Ipsusu Presets (IpsuShade) if I migrated from a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install)
 - [Troubleshooting and Common Issues (especially when migrating from GShade).](#troubleshooting-and-common-issues-especially-when-migrating-from-gshade)
