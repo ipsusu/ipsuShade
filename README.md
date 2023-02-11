@@ -1,10 +1,19 @@
 <p align="center">
   <h1 align="center">IpsuShade.</h1>
-  <h3 align="center"> ReShade / GShade presets for Final Fantasy XIV.</p>
-<!--- <p align="center">
-    <img width="50%" src="https://i.imgur.com/vGikwdM.png">
-  </p> --->
+  <h3 align="center"> ReShade / GShade presets for Final Fantasy XIV.</h3>
 </p>
+<!-- <p align="center"> <img width="50%" src="https://i.imgur.com/vGikwdM.png"> </p> -->
+
+## Table of Contents
+
+- [What is IpsuShade?](#what-is-ipsushade)
+  * [Brief ReShade install guide for FFXIV.](#brief-reshade-install-guide-for-ffxiv)
+- [How do I use the Ipsusu Presets (IpsuShade) on a fresh ReShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install)
+- [How do I use the Ipsusu Presets (IpsuShade) if I migrated from a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install)
+- [Troubleshooting and Common Issues (especially when migrating from GShade).](#troubleshooting-and-common-issues-especially-when-migrating-from-gshade)
+- [Required FFXIV in-game graphics settings](#required-ffxiv-in-game-graphics-settings)
+- [Donate](#donate)
+- [Contact](#contact)
 
 <!-- <h1 align="center">  !!! DISCLAIMER - PLEASE READ BEFORE CONTINUING !!! </h1>
 <h3 align="center">
@@ -16,7 +25,6 @@ While I wait for a response, you must download them from <a href='https://github
 <h4 align="center">
 My Ultimate presets will lack certain intended shadows if you skip these steps, and certain presets may look too dark (Crystal & Vanilla).
 </h4> -->
-
 
 
 ## What is IpsuShade?
