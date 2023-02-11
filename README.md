@@ -125,6 +125,8 @@ Here are a couple of common issues and solutions:
     **Solution**: If you have a `gshade-shaders` folder, delete the `reshade-shaders` folder entry under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
     
     If you only have a `reshade-shaders` folder, you might have duplicate MultiLUT shaders in that folder somehow.
+    
+    This could also be an issue where if you link `.\reshade-shaders\**` as an `Effect search path`, some users may have an `reshade-shaders\Intermediate` folder which may cause shader duplication issues. Try and use specific folder name links like `.\reshade-shaders\Shaders` to avoid this.
 
 - <b>My XIV HUD job gauges have a weird grey box around them, this didn't happen in GShade!</b> (image below)
 
