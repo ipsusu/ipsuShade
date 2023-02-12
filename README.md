@@ -59,7 +59,7 @@ These colours are:
 4. `Skip` the preset installation step, we will do this manually.
 
 5. When it asks you to select effect packages to install, you must click the `Uncheck All` in the top right of the window. 
-    - We don't want to install the SweetFX shaders as it causes a conflict with the ones included with my IpsuShade package.
+    - We don't want to install any additional shaders as it may cause a conflict with the ones included with my IpsuShade package.
     - But, if we simply `Skip` this step, it doesn't create the links we need in ReShade to automatically detect the shader files in IpsuShade. (So, don't do that!)
 
 6. You should now have a working ReShade install for FFXIV. However, it will have no presets or shaders. 
@@ -131,12 +131,11 @@ Here are a couple of common issues and solutions:
 
     This seems to be exclusively a GShade to ReShade migration issue.
     This (is probably) due to you having multiple copies of certain shaders linked in the `Effect search paths` in the ReShade settings tab of the Overlay.
-    This (is probably) caused by doing a "default" install of ReShade which installs some crosire and SweetFX shaders, meaning you have both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings.
-    As such, you're applying 2x the `MultiLUT` shader's colour and it's not enjoying itself.
+    This (is probably) caused by doing a "default" install of ReShade which installs some additional shaders, meaning you have both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings. Specifically, the OtisFX pack includes a different version of MultiLUT which may break the IpsuShade version.
 
     **Solution**: If you have a `gshade-shaders` folder, delete the `reshade-shaders` folder entry under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
     
-    If you only have a `reshade-shaders` folder, you might have duplicate MultiLUT shaders in that folder somehow.
+    If you only have a `reshade-shaders` folder, you might have duplicate MultiLUT shaders in that folder somehow. Check to see if you have a `reshade-shaders\Shaders\OtisFX` folder. If so, delete the `OtisFX` folder!
     
     This could also be an issue where if you link `.\reshade-shaders\**` as an `Effect search path`, some users may have an `reshade-shaders\Intermediate` folder which may cause shader duplication issues. Try and use specific folder name links like `.\reshade-shaders\Shaders` to avoid this.
 
