@@ -59,7 +59,7 @@ These colours are:
 4. `Skip` the preset installation step, we will do this manually.
 
 5. When it asks you to select effect packages to install, you must click the `Uncheck All` in the top right of the window. 
-    - We don't want to install any additional shaders as it may cause a conflict with the ones included with my IpsuShade package.
+    - We don't want to install any additional shaders at this point as it may cause a conflict with the ones included with my IpsuShade package.
     - But, if we simply `Skip` this step, it doesn't create the links we need in ReShade to automatically detect the shader files in IpsuShade. (So, don't do that!)
 
 6. You should now have a working ReShade install for FFXIV. However, it will have no presets or shaders. 
