@@ -129,13 +129,13 @@ Here are a couple of common issues and solutions:
 
 - <b>I try and load one of your presets and the colours are all messed up / way brighter than I remember.</b>
 
-    This seems to be exclusively a GShade to ReShade migration issue.
-    This (is probably) due to you having multiple copies of certain shaders linked in the `Effect search paths` in the ReShade settings tab of the Overlay.
-    This (is probably) caused by doing a "default" install of ReShade which installs some additional shaders, meaning you have both `reshade-shaders` and `gshade-shaders` linked in your ReShade settings. Specifically, the OtisFX pack includes a different version of MultiLUT which may break the IpsuShade version.
+    This due to you having multiple copies of certain shaders linked in the `Effect search paths` in the ReShade settings tab of the Overlay.
+    This (is probably) caused by doing a "default" install of ReShade which installs some additional shaders, meaning you have `reshade-shaders` with a bunch of subdirectories linked in your ReShade settings. The `OtisFX` pack is most likely causing this issue, as includes a different version of MultiLUT which may break stuff if included alongisde the IpsuShade version (makes stuff look super weird).
 
     **Solution**: If you have a `gshade-shaders` folder, delete the `reshade-shaders` folder entry under `Effect search paths` in the ReShade overlay while ingame. It would be a good idea to also delete the `reshade-shaders` folder in your XIV `game` folder so you don't get confused and try installing something to it in the future.
     
-    If you only have a `reshade-shaders` folder, you might have duplicate MultiLUT shaders in that folder somehow. Check to see if you have a `reshade-shaders\Shaders\OtisFX` folder. If so, delete the `OtisFX` folder!
+    If you only have a `reshade-shaders` folder, you might have duplicate shaders in that folder from doing an install with optional shaders. 
+    Check to see if you have a `reshade-shaders\Shaders\OtisFX` folder. If so, delete the `OtisFX` folder, or to be safer (but may break compat. with other preset releases), delete the whole `reshade-shaders` folder and replace it with the one included in the `IpsuShade_ReShadeFolderRelease.zip`.
     
     This could also be an issue where if you link `.\reshade-shaders\**` as an `Effect search path`, some users may have an `reshade-shaders\Intermediate` folder which may cause shader duplication issues. Try and use specific folder name links like `.\reshade-shaders\Shaders` to avoid this.
 
