@@ -10,8 +10,9 @@
 - Software Install Guides:
   - [Brief ReShade install guide for FFXIV.](#brief-reshade-install-guide-for-ffxiv)
 - Preset/Shader Install Guides:
-  - [How do I use the Ipsusu Presets (IpsuShade) on a fresh ReShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install)
-  - [How do I use the Ipsusu Presets (IpsuShade) if I migrated from a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install)
+  - [How do I use the Ipsusu Presets (IpsuShade) on a fresh ReShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-on-a-fresh-reshade-install)
+  - [How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-to-reshade-from-a-gshade-install)
+  - [How do I use the Ipsusu Presets with a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-with-a-gshade-install)
 - Settings and Troubleshooting:
   - [Troubleshooting and Common Issues (especially when migrating from GShade).](#troubleshooting-and-common-issues-especially-when-migrating-from-gshade)
   - [Required FFXIV in-game graphics settings.](#required-ffxiv-in-game-graphics-settings)
@@ -91,9 +92,9 @@ These colours are:
 5. You should now have a perfectly working install of IpsuShade.
 <br>
 
-## How do I use the Ipsusu Presets (IpsuShade) if I migrated from a GShade install?
+## How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?
 
-The Ipsusu presets were originally (and, technically currently) included with a GShade install. 
+The Ipsusu presets were originally (and currently) included with a GShade install. 
 
 As such, <i>you should already have the presets</i> and you will be able to find them in the `gshade-presets\Ipsusu\` folder!
 
@@ -103,15 +104,31 @@ As such, <i>you should already have the presets</i> and you will be able to find
 
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
-<h3>At the time of writing (2023-02-07), my <code>Screenie</code> and <code>Ultimate</code> presets have been updated from the included GShade release. </h3>
+<h3>If you haven't installed GShade since 2023-02-07, my <code>Screenie</code> and <code>Ultimate</code> presets have been updated from the version included with GShade. </h3>
 
-Due to the current state of GShade, you must manually update these by downloading the folder below and overwriting these presets in your `gshade-presets\Ipsusu` folder. You should not need to update the `gshade-shaders` but there is no harm in this as they are the exact same versions as included.
+Due to the status of many GShade installs, you may need to manually update these by downloading the folder below and overwriting these presets in your `gshade-presets\Ipsusu` folder. You should not need to update the `gshade-shaders` but there is no harm in this as they are the exact same versions as included.
 
 If the guide you followed or program you used to migrate renamed your presets and shader folders from `gshade-xxxxxx` to `reshade-xxxxxx`, use the download in the <a href="https://github.com/ipsusu/IpsuShade#how-do-i-use-the-ipsusu-presets-ipsushade-on-a-fresh-reshade-install">prior section</a>.
 
 If you still have a `gshade-presets` and `gshade-shaders` folder: 
 
 <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_GShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files using the gshade-presets and gshade-shaders folder names. </a>
+
+## How do I use the Ipsusu Presets (IpsuShade) with a GShade install?
+
+The Ipsusu presets are currently included with <a href="https://github.com/Mortalitas/GShade/releases">GShade</a> installs by default through their installer. 
+
+GShade is a closed source fork of ReShade that includes specific improvements to usability and compatibility with whitelisted games.
+
+<a href="https://github.com/Mortalitas/GShade/releases/latest">Click here to download the latest release of GShade, which includes IpsuShade by default.</a>
+
+After installation, you will be able to find the Ipsusu presets in the `gshade-presets\Ipsusu\` folder!
+
+1. Click the `gshade-presets` folder if it is not already selected, and scroll down to find the `Ipsusu` folder.
+
+2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> for an explaination of the presets.
+
+    - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
 <br>
 
