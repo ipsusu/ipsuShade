@@ -12,7 +12,7 @@
 - Preset/Shader Install Guides:
   - [How do I use the Ipsusu Presets (IpsuShade) on a fresh ReShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-on-a-fresh-reshade-install)
   - [How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-to-reshade-from-a-gshade-install)
-  - [How do I use the Ipsusu Presets with a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-with-a-gshade-install)
+  - [How do I use the Ipsusu Presets (IpsuShade) with a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-with-a-gshade-install)
 - Settings and Troubleshooting:
   - [Troubleshooting and Common Issues (especially when migrating from GShade).](#troubleshooting-and-common-issues-especially-when-migrating-from-gshade)
   - [Required FFXIV in-game graphics settings.](#required-ffxiv-in-game-graphics-settings)
