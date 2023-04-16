@@ -116,9 +116,11 @@ If you still have a `gshade-presets` and `gshade-shaders` folder:
 
 ## How do I use the Ipsusu Presets (IpsuShade) with a GShade install?
 
-The Ipsusu presets are currently included with <a href="https://github.com/Mortalitas/GShade/releases">GShade</a> installs by default through their installer. 
+The Ipsusu presets are included with <a href="https://github.com/Mortalitas/GShade/releases">GShade</a> installs by default through their installer. 
 
-GShade is a closed source fork of ReShade that includes specific improvements to usability and compatibility with whitelisted games.
+**Disclaimer:**
+
+>GShade is a *closed source* fork of ReShade that includes specific improvements to usability and compatibility with whitelisted games. There was drama in early Feburary 2023 around a poor decision of the inclusion of anti-tampering code that would restart Windows if a specific 3rd-party program was used to trigger functions within the GShade installer to download certain assets independently (in an attempt to bypass a new GShade license agreement for certain textures and shaders). This code was removed after the obvious extremely negative reaction from the community, but the reputational damage was already done. Therefore, do use this program at your own judgement. However, I do not want to punish innocent users who may not be able to use ReShade (e.g., Linux and Mac users) or may not have the technical ability to follow the install guides above. I have always held the stance that anyone may use and redistribute my presets or textures (as explained in my <a href="https://github.com/ipsusu/IpsuShade/blob/master/LICENSE.md">license<a>). I encourage my presets to be bundled with any future ReShade forks in the future.
 
 <a href="https://github.com/Mortalitas/GShade/releases/latest">Click here to download the latest release of GShade, which includes IpsuShade by default.</a>
 
