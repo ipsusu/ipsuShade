@@ -173,10 +173,10 @@ Here are a couple of common issues and solutions:
      
      OR
      - Experimental solution: Using the experimental `ReshadeEffectShaderToggler-FFXIV_UIONLY` addon for ReShade: <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV_UIONLY">Here.</a>
-         - Please be sure to read the "Notes" section on their README or stuff will look very weird. (i.e., changing in-game gamma setting)
+         - Please be sure to read the "IMPORTANT" section on their README or stuff will look very weird. (i.e., changing in-game gamma setting)
          
      OR
-     - By using <a href="https://github.com/Mortalitas/GShade/releases/latest">GShade</a> instead of ReShade.
+     - By using <a href="https://github.com/Mortalitas/GShade/releases/latest">GShade</a> instead of ReShade. (See the disclaimer <a href="#how-do-i-use-the-ipsusu-presets-ipsushade-with-a-gshade-install">here</a> first!)
 
 
 - <b>The shadows on the Screenie and Ultimate presets are too dark.</b>
