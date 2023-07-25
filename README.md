@@ -49,10 +49,16 @@ These colours are:
 
 ### Brief ReShade install guide for FFXIV.
 
-1. Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade, specifically the `with full add-on support` version. 
+<hr>
+<h3><strong>As of 2023-07-24, the ReShade 5.9.0 build causes certain shaders in this repo to throw errors. These shaders need to be updated to work with ReShade 5.9.0.</strong></h3>
+<h3><strong>Please use ReShade 5.8.0 until updates for these shaders are availiable. You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong></h3>
+<hr>
+
+1. <s>Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade,</s> specifically the `with full add-on support` version.
+    - <strong>As of 2023-07-24, we need to download an older version of ReShade, 5.8.0. You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong>
     - This is the version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and improved lighting and shadows.
 
-2. Select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
+2. Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
     - Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe`. 
 
 3. For the rendering API step, select `Microsoft DirectX 10/11/12`. 
