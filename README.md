@@ -55,7 +55,7 @@ These colours are:
 <hr>
 
 1. <s>Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade,</s> specifically the `with full add-on support` version.
-    - <strong>As of 2023-07-24, we need to download an older version of ReShade, 5.8.0. You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong>
+    - <strong>As of 2023-07-24, we need to download an older version of ReShade (5.8.0). You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong>
     - This is the version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and improved lighting and shadows.
 
 2. Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
