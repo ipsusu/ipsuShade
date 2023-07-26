@@ -51,7 +51,7 @@ These colours are:
 
 <hr>
 <h3><strong>As of 2023-07-24, the ReShade 5.9.0 build causes certain shaders in this repo to throw errors. These shaders need to be updated to work with ReShade 5.9.0.</strong></h3>
-<h3><strong>Please use ReShade 5.8.0 until updates for these shaders are availiable. You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong></h3>
+<h3><strong>Please use ReShade 5.8.0 until updates for these shaders are available. You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong></h3>
 <hr>
 
 1. <s>Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade,</s> specifically the `with full add-on support` version.
