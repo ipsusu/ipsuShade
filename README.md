@@ -147,6 +147,12 @@ Certain people's installations of ReShade are a bit borked because early guides 
 
 Here are a couple of common issues and solutions:
 
+- <b>Some of the shaders in the preset failed to compile! (Glamarye_Fast_Effects.fx and qUINT_ssr.fx)</b>
+
+  This is an issue with ReShade 5.9.0 causing incompatibility with these shaders. 
+
+  Until these shaders can be updated, <a href="https://reshade.me/forum/general-discussion/294-reshade-repository">install ReShade 5.8.0 instead</a> (specifically, with full add-on support).
+
 - <b>My screen is black when I try and load your presets.</b>
 
     This is due to the MultiLUT shader not being able to find the <a href="https://github.com/ipsusu/IpsuShade/blob/master/Textures/MultiLut_Ipsusu.png">MultiLUT_Ipsusu.png</a> texture file. This is either due to your installation not having a `Texture search path` set in the ReShade settings overlay, or you somehow do not have my texture file in the linked folder.
