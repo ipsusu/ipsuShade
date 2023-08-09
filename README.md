@@ -92,7 +92,7 @@ These colours are:
 3. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
     - If you dragged the files while the game was still open, you need to press `Reload` on the bottom left of the overlay to get them to show up.
 
-4. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explaination of the presets.
+4. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explanation of the presets.
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
  
 5. You should now have a perfectly working install of IpsuShade.
