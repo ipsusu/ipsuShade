@@ -150,7 +150,7 @@ Here are a couple of common issues and solutions:
 
   <img src="https://i.imgur.com/lqXG2om.png"></img>
 
-  This is an issue with ReShade 5.9.0 causing incompatibility with older versions these shaders.
+  This is an issue with ReShade 5.9.0+ causing incompatibility with older versions these shaders.
 
   As of `2023-08-09`, I have updated IpsuShade to fix this issue! (IpsuShade v1.0.1) 
   
