@@ -152,7 +152,7 @@ Here are a couple of common issues and solutions:
 
   This is an issue with ReShade 5.9.0 causing incompatibility with older versions these shaders.
 
-  As of `2023-08-09`, I have updated IpsuShade to fix this issue! (IpsuShade v1.1.0) 
+  As of `2023-08-09`, I have updated IpsuShade to fix this issue! (IpsuShade v1.0.1) 
   
   If you are using an older install of IpsuShade (pre-2023-08-09) with ReShade 5.9.0+, you will need to update the `Glamarye_Fast_Effects.fx` shader. (You can download it <a href="https://github.com/ipsusu/IpsuShade/blob/master/Shaders/Glamayre_Fast_Effects.fx">HERE</a>). Simply copy and overwrite the existing version in your `reshade-shaders` folder.
 
