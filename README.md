@@ -49,13 +49,12 @@ These colours are:
 
 ### Brief ReShade install guide for FFXIV.
 
-<hr>
+<!-- <hr>
 <h3><strong>As of 2023-07-24, the ReShade 5.9.0 build causes certain shaders in this repo to throw errors. These shaders need to be updated to work with ReShade 5.9.0.</strong></h3>
 <h3><strong>Please use ReShade 5.8.0 until updates for these shaders are available. You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong></h3>
-<hr>
+<hr> -->
 
-1. <s>Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade,</s> specifically the `with full add-on support` version.
-    - <strong>As of 2023-07-24, we need to download an older version of ReShade (5.8.0). You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong>
+1. Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade, specifically the `with full add-on support` version.
     - This is the version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and improved lighting and shadows.
 
 2. Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
@@ -149,9 +148,17 @@ Here are a couple of common issues and solutions:
 
 - <b>Some of the shaders in the preset failed to compile! (Glamarye_Fast_Effects.fx and qUINT_ssr.fx)</b>
 
-  This is an issue with ReShade 5.9.0 causing incompatibility with these shaders. 
+  <img src="https://i.imgur.com/lqXG2om.png"></img>
 
-  Until these shaders can be updated, <a href="https://reshade.me/forum/general-discussion/294-reshade-repository">install ReShade 5.8.0 instead</a> (specifically, with full add-on support).
+  This is an issue with ReShade 5.9.0 causing incompatibility with older versions these shaders.
+
+  As of `2023-08-09`, I have updated IpsuShade to fix this issue! (IpsuShade v1.1.0) 
+  
+  If you are using an older install of IpsuShade (pre-2023-08-09) with ReShade 5.9.0+, you will need to update the `Glamarye_Fast_Effects.fx` shader. (You can download it <a href="https://github.com/ipsusu/IpsuShade/blob/master/Shaders/Glamayre_Fast_Effects.fx">HERE</a>). Simply copy and overwrite the existing version in your `reshade-shaders` folder.
+
+  The `qUINT_ssr.fx` shader isn't actually used by my presets, and I cannot update it due to licensing issues, so you need to simply delete this shader from your `reshade-shaders` folder (or just ignore the error).
+
+  You can also fix this issue without messing with the shaders by <a href="https://reshade.me/forum/general-discussion/294-reshade-repository">installing ReShade 5.8.0 instead</a> (specifically, with full add-on support).
 
 - <b>My screen is black when I try and load your presets.</b>
 
