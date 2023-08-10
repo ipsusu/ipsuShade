@@ -106,7 +106,7 @@ As such, <i>you should already have the presets</i> and you will be able to find
 
 1. Click the `gshade-presets` folder from your migrated install and scroll down to find the `Ipsusu` folder.
 
-2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> for an explaination of the presets!
+2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> for an explanation of the presets!
 
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
@@ -134,7 +134,7 @@ After installation, you will be able to find the Ipsusu presets in the `gshade-p
 
 1. Click the `gshade-presets` folder if it is not already selected, and scroll down to find the `Ipsusu` folder.
 
-2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> for an explaination of the presets.
+2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> for an explanation of the presets.
 
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
