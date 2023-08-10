@@ -152,12 +152,12 @@ Here are a couple of common issues and solutions:
 
   This is an issue with ReShade 5.9.0+ causing incompatibility with older versions these shaders.
 
-  As of `2023-08-09`, I have updated IpsuShade to fix this issue! (IpsuShade v1.0.1) 
+  As of `2023-08-09`, I have updated IpsuShade to fix this issue! (IpsuShade v1.0.1)
+
+  The easiest way to fix this issue would to download the appropriate `IpsuShade v1.0.1` zip from the <a href="https://github.com/ipsusu/IpsuShade/releases">IpsuShade releases page</a> and copy and overwrite your current `reshade-shaders`/`gshade-shaders` folder with the new version from the `.zip`. Everything should now properly compile.
+
+  If you want to manually update only the changed files, please download the `Glamarye_Fast_Effects.fx` and `ReShadeUI.fx` shaders from the <a href="https://github.com/ipsusu/IpsuShade/tree/master/Shaders">IpsuShade GitHub Shaders</a> folder and place them in your `reshade-shaders`/`gshade-shaders`, overwriting the old versions. You also need to delete `qUINT_ssr.fx` as this shader from the same folder, as can't be updated in IpsuShade due to licensing and it isn't actually used in any of my presets anyway. Everything should now properly compile.
   
-  If you are using an older install of IpsuShade (pre-2023-08-09) with ReShade 5.9.0+, you will need to update the `Glamarye_Fast_Effects.fx` shader. (You can download it <a href="https://github.com/ipsusu/IpsuShade/blob/master/Shaders/Glamayre_Fast_Effects.fx">HERE</a>). Simply copy and overwrite the existing version in your `reshade-shaders` folder.
-
-  The `qUINT_ssr.fx` shader isn't actually used by my presets, and I cannot update it due to licensing issues, so you need to simply delete this shader from your `reshade-shaders` folder (or just ignore the error).
-
   You can also fix this issue without messing with the shaders by <a href="https://reshade.me/forum/general-discussion/294-reshade-repository">installing ReShade 5.8.0 instead</a> (specifically, with full add-on support).
 
 - <b>My screen is black when I try and load your presets.</b>
