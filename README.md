@@ -231,7 +231,7 @@ I now offer paid Bespoke ReShade Preset Commissions, to craft a perfect preset t
 
 <img src="https://i.imgur.com/eNmbE6D.png" style="width: 70%" align="center"></img>
 
-Prices start from <b>£20</b> for one preset, you can find more information here: 
+<h3>You can find more information here:</h3> 
 <h3><a href='https://bespoke.susu.gay'>https://bespoke.susu.gay</a></h3>
 
 
