@@ -229,7 +229,7 @@ You can donate or tip me some lunch money here:
 
 I now offer paid Bespoke ReShade Preset Commissions, to craft a perfect preset to match your WoL, or any specific mood, vibe, theme or use case you desire.
 
-<img src="https://i.imgur.com/eNmbE6D.png" style="width: 70%"></img>
+<img src="https://i.imgur.com/eNmbE6D.png" style="width: 70%" align="center"></img>
 
 Prices start from <b>£20</b> for one preset, you can find more information here: 
 <h3><a href='https://bespoke.susu.gay'>https://bespoke.susu.gay</a></h3>
