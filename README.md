@@ -224,7 +224,17 @@ Here are a couple of common issues and solutions:
 You can donate or tip me some lunch money here:
 
 <a href='https://ko-fi.com/ipsusu' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>
-  
+
+## Bespoke ReShade Preset Commissions
+
+I now offer paid Bespoke ReShade Preset Commissions, to craft a perfect preset to match your WoL, or any specific mood, vibe, theme or use case you desire.
+
+<img src="https://i.imgur.com/eNmbE6D.png" style="width: 70%"></img>
+
+Prices start from <b>£20</b> for one preset, you can find more information here: 
+<h3><a href='https://bespoke.susu.gay'>https://bespoke.susu.gay</a></h3>
+
+
 ## Contact
 
 You can contact me easiest on my <a href='https://twitter.com/ipsusu'>Twitter</a>. Just send me a DM.
