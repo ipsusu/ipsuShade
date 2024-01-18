@@ -62,13 +62,17 @@ These colours are:
 
 3. For the rendering API step, select `Microsoft DirectX 10/11/12`. 
 
-4. `Skip` the preset installation step, we will do this manually.
-
-5. When it asks you to select effect packages to install, you must click the `Uncheck All` in the top right of the window. 
+4. When it asks you to select effect packages to install, you <b>must</b> click the `Uncheck All` in the top right of the window. 
     - We don't want to install any additional shaders at this point as it may cause a conflict with the ones included with my IpsuShade package.
     - But, if we simply `Skip` this step, it doesn't create the links we need in ReShade to automatically detect the shader files in IpsuShade. (So, don't do that!)
+  
+5. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow filtering of UI elements seperately from the main image (FFKeepUI in GShade).
+    - If you check this, you need to follow the FFXIV configuration steps listed <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV">here</a> to get it working.
 
-6. You should now have a working ReShade install for FFXIV. However, it will have no presets or shaders. 
+6. Click `Next` on the add-ons page.
+   - You can manually install add-ons later if needed.
+
+7. You should now have a working ReShade install for FFXIV. However, it will have no presets or shaders. 
     - Follow the steps below to install IpsuShade!
 
 <hr>
