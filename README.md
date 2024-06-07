@@ -75,7 +75,7 @@ Each preset type comes in a range of 7 included colour variants.
   
 8. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow filtering of UI elements seperately from the main image (FFKeepUI in GShade).
     - If you check this, you need to follow the FFXIV configuration steps listed <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV">here</a> to get it working.
-    - <b>THIS WILL NEED TO BE UPDATED FOR DAWNTRAIL. IF YOUR GAME IS CRASHING, THIS IS WHY!</b>
+    - <i><b> ! ! THIS WILL NEED TO BE UPDATED FOR DAWNTRAIL. IF YOUR GAME IS CRASHING, THIS IS WHY ! ! </b></i>
 
 9. Click `Next` on the add-ons page.
    - You can manually install add-ons later if needed.
@@ -89,8 +89,9 @@ Each preset type comes in a range of 7 included colour variants.
 
 <h3 align="center"> <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_ReShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a fresh ReShade install. </a> </h3>
 
-1. Download the `.zip` of IpsuShade with ReShade folder names through the link above.
-2. Drag and drop the two ReShade folders found inside the `IpsuShade_ReShadeFolderRelease.zip` into your FFXIV installation `\game\` directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders. 
+1. After ensuring you have downloaded ReShade as specified by the my guide, please download the `.zip` of the ipsuShade files above.
+   - The important step here is that you've installed ReShade with <b>all of the avaliable effects</b>. There are <b>no shaders provided with ipsuShade, it is all downloaded via the ReShade installer.</b>
+3. Drag and drop the two ReShade folders found inside the `ipsuShade_2406.zip` into your FFXIV installation `\game\` directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders.
 
     - For the Steam version, your directory is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
 
@@ -99,15 +100,13 @@ Each preset type comes in a range of 7 included colour variants.
 
 #### Note. The existing folders should be named `reshade-presets` and `reshade-shaders`. If they are called `gshade-presets` and `gshade-shaders` please read the <a href="https://github.com/ipsusu/IpsuShade#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-from-a-gshade-install">section below</a> as you have an installation that has been migrated from a GShade install.
 
-<!-- 3. ***TEMPORARY STEP FROM THE ABOVE  Marty Mcfly qUINT  DISCLAIMER***: Make sure you also install the qUINT shaders from <a href='https://github.com/martymcmodding/qUINT/archive/refs/heads/master.zip' target='_black'>  - HERE - </a> and drag + merge the <code>Shaders</code> folder found inside that .zip download into your <code>reshade-shaders</code> folder. -->
-
-3. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `Ipsusu` folder inside your `reshade-presets` folder.
+3. Once in-game, open the ReShade overlay (by pressing the `Home` key by default) and navigate to the `ipsuShade` folder inside your `reshade-presets` folder.
     - If you dragged the files while the game was still open, you need to press `Reload` on the bottom left of the overlay to get them to show up.
 
-4. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> about an explanation of the presets.
-    - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset (if you have any installed).
- 
-5. You should now have a perfectly working install of IpsuShade.
+4. Simply double click to navigate the ipsuShade folders, and click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/ipsuShade#what-is-ipsushade">here</a> about an explanation of the presets.
+    - Click the two dots at the top (the "..") to go up / back one folder.
+      
+5. You should now have a perfectly working install of ipsuShade.
 <br>
 
 ## How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?
