@@ -34,14 +34,14 @@ My Ultimate presets will lack certain intended shadows if you skip these steps, 
 
 ## What is ipsuShade?
 
-ipsuShade is a ReShade preset collection (with GShade support) that aims to deliver maximum quality at maximum FPS with the `Gameplay`, `GameplayLite` and `Questing` preset types, but also provide high fidelity screenshots with the `Screenie` and `Ultimate` preset types.
+ipsuShade is a <b>ReShade</b> preset collection (with <b>GShade</b> support) that aims to deliver maximum quality at maximum FPS with the `Gameplay`, `Questing` and `Lite` variant presets, but also provide the highest fidelity screenshots with the `Screenie`, `Ultimate` and `Pro Suite` preset types.
 
-<img src="https://i.imgur.com/0h3bTyM.png">
+<!-- <img src="https://i.imgur.com/0h3bTyM.png"> -->
 
 Each preset type comes in a range of 7 included colour variants.
-These colours are: 
+<!-- These colours are: -->
 
-<img src="https://i.imgur.com/wr2tvRH.png">
+<!-- <img src="https://i.imgur.com/wr2tvRH.png"> -->
 
 
 
