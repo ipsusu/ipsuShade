@@ -1,6 +1,10 @@
 ipsuShade - Guidance on Pro Suite Supported Shaders:
-- iMMERSE Pro
-- iMMERSE Ultimate
+Free:
+- iMMERSE 
+- METEOR
+Paid:
+- iMMERSE Pro 2403
+- iMMERSE Ultimate 2403
 - qUINT RTGI (v36.1, but lower versions will work.)
 - NiceGuy COMPLETE_RT
 
