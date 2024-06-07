@@ -10,7 +10,7 @@
 - Software Install Guides:
   - [Brief ReShade install guide for FFXIV.](#brief-reshade-install-guide-for-ffxiv)
 - Preset/Shader Install Guides:
-  - [How do I use the ipsuShade on a fresh ReShade install?](#how-do-i-use-ipsushade-on-a-fresh-reshade-install)
+  - [How do I use ipsuShade on a fresh ReShade install?](#how-do-i-use-ipsushade-on-a-fresh-reshade-install)
   - [How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-to-reshade-from-a-gshade-install)
   - [How do I use the Ipsusu Presets (IpsuShade) with a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-with-a-gshade-install)
 - Settings and Troubleshooting:
@@ -32,9 +32,9 @@ My Ultimate presets will lack certain intended shadows if you skip these steps, 
 </h4> -->
 
 
-## What is IpsuShade?
+## What is ipsuShade?
 
-IpsuShade is a ReShade preset collection (with GShade support) that aims to deliver maximum quality at maximum FPS with the `Gameplay`, `GameplayLite` and `Questing` preset types, but also provide high fidelity screenshots with the `Screenie` and `Ultimate` preset types.
+ipsuShade is a ReShade preset collection (with GShade support) that aims to deliver maximum quality at maximum FPS with the `Gameplay`, `GameplayLite` and `Questing` preset types, but also provide high fidelity screenshots with the `Screenie` and `Ultimate` preset types.
 
 <img src="https://i.imgur.com/0h3bTyM.png">
 
@@ -49,39 +49,36 @@ These colours are:
 
 ### Brief ReShade install guide for FFXIV.
 
-<!-- <hr>
-<h3><strong>As of 2023-07-24, the ReShade 5.9.0 build causes certain shaders in this repo to throw errors. These shaders need to be updated to work with ReShade 5.9.0.</strong></h3>
-<h3><strong>Please use ReShade 5.8.0 until updates for these shaders are available. You can download ReShade 5.8.0 <a href='https://www.mediafire.com/file/ld302lmswv2dx1k/ReShade_Setup_5.8.0_Addon.exe/file' target='_blank'>here.</a></strong></h3>
-<hr> -->
-
 1. Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade, specifically the `with full add-on support` version.
     - This is the version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and improved lighting and shadows.
 
-2. Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list. 
-    - Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe`. 
+2. Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list.
+    - Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe`.
+    - You may have to click the `Browse...` button and navigate to your FFXIV `/game/` folder to find this.
 
 3. For the rendering API step, select `Microsoft DirectX 10/11/12`. 
 
-4. <i>This is a bit counter intuitive, but:</i> When it asks you to select effect packages to install, you please first click  `Uncheck All` in the top right of the window.
+4. <b>This is a bit counter intuitive, but:</b>  
+   When it asks you to select effect packages to install, you please first click  `Uncheck All` in the top right of the window.
     - Please then click the same box again, which should have changed to `Check All`. 
-    - Now, every shader package should be checked to download!
+    - Every shader package should now be checked to download!
     - We don't need all shaders for ipsuShade, but this ensures maximum compatibility with other all other presets and the file size increase is minimal.
   
-5. Please now click `Next` after ensuring all the effects have a checkmark next to them. The ReShade installer will now download these shaders. Please wait for this process to finish.
+7. Please now click `Next` after ensuring all the effects have a checkmark next to them. The ReShade installer will now download these shaders. Please wait for this process to finish.
   
-6. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow filtering of UI elements seperately from the main image (FFKeepUI in GShade).
+8. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow filtering of UI elements seperately from the main image (FFKeepUI in GShade).
     - If you check this, you need to follow the FFXIV configuration steps listed <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV">here</a> to get it working.
     - <b>THIS WILL NEED TO BE UPDATED FOR DAWNTRAIL. IF YOUR GAME IS CRASHING, THIS IS WHY!</b>
 
-7. Click `Next` on the add-ons page.
+9. Click `Next` on the add-ons page.
    - You can manually install add-ons later if needed.
 
-8. You should now have a working ReShade install for FFXIV. However, it will have no presets. 
-    - Follow the steps below to install ipsuShade!
+10. You should now have a working ReShade install for FFXIV. However, it will have no presets. 
+    - Follow the steps below to install <b>ipsuShade!</b>
 
 <hr>
 
-## How do I use the Ipsusu Presets (IpsuShade) on a fresh ReShade install?
+## How do I use ipsuShade on a fresh ReShade install?
 
 <h3 align="center"> <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_ReShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a fresh ReShade install. </a> </h3>
 
