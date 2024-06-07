@@ -1,16 +1,16 @@
 <p align="center">
-  <h1 align="center">IpsuShade.</h1>
+  <h1 align="center">ipsuShade.</h1>
   <h3 align="center"> ReShade / GShade presets for Final Fantasy XIV.</h3>
 </p>
 <!-- <p align="center"> <img width="50%" src="https://i.imgur.com/vGikwdM.png"> </p> -->
 
 ## Table of Contents
 
-- [What is IpsuShade?](#what-is-ipsushade)
+- [What is ipsuShade?](#what-is-ipsushade)
 - Software Install Guides:
   - [Brief ReShade install guide for FFXIV.](#brief-reshade-install-guide-for-ffxiv)
 - Preset/Shader Install Guides:
-  - [How do I use the Ipsusu Presets (IpsuShade) on a fresh ReShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-on-a-fresh-reshade-install)
+  - [How do I use the ipsuShade on a fresh ReShade install?](#how-do-i-use-ipsushade-on-a-fresh-reshade-install)
   - [How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-to-reshade-from-a-gshade-install)
   - [How do I use the Ipsusu Presets (IpsuShade) with a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-with-a-gshade-install)
 - Settings and Troubleshooting:
@@ -62,18 +62,22 @@ These colours are:
 
 3. For the rendering API step, select `Microsoft DirectX 10/11/12`. 
 
-4. When it asks you to select effect packages to install, you <b>must</b> click the `Uncheck All` in the top right of the window before clicking `Next`.
-    - We don't want to install any additional shaders at this point as it may cause a conflict with the ones included with my IpsuShade package.
-    - But, if we simply `Skip` this step, it doesn't create the links we need in ReShade to automatically detect the shader files in IpsuShade. (So, don't do that!)
+4. <i>This is a bit counter intuitive, but:</i> When it asks you to select effect packages to install, you please first click  `Uncheck All` in the top right of the window.
+    - Please then click the same box again, which should have changed to `Check All`. 
+    - Now, every shader package should be checked to download!
+    - We don't need all shaders for ipsuShade, but this ensures maximum compatibility with other all other presets and the file size increase is minimal.
   
-5. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow filtering of UI elements seperately from the main image (FFKeepUI in GShade).
+5. Please now click `Next` after ensuring all the effects have a checkmark next to them. The ReShade installer will now download these shaders. Please wait for this process to finish.
+  
+6. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow filtering of UI elements seperately from the main image (FFKeepUI in GShade).
     - If you check this, you need to follow the FFXIV configuration steps listed <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV">here</a> to get it working.
+    - <b>THIS WILL NEED TO BE UPDATED FOR DAWNTRAIL. IF YOUR GAME IS CRASHING, THIS IS WHY!</b>
 
-6. Click `Next` on the add-ons page.
+7. Click `Next` on the add-ons page.
    - You can manually install add-ons later if needed.
 
-7. You should now have a working ReShade install for FFXIV. However, it will have no presets or shaders. 
-    - Follow the steps below to install IpsuShade!
+8. You should now have a working ReShade install for FFXIV. However, it will have no presets. 
+    - Follow the steps below to install ipsuShade!
 
 <hr>
 
