@@ -120,6 +120,10 @@ There are two methods:
 
 <h2>Install ipsuShade with GPosingway -</h2>
 
+[GPosingway](https://github.com/gposingway/gposingway) is a drop-in package for Final Fantasy XIV containing a stable collection of shaders, textures, and presets gathered from the community and beyond. GPosingway aims to ensure that presets will work as intended by its creators by avoiding conflicts, mismatches and missing files, giving users a consistent experience.
+
+
+**Install:**  
 Please follow the `Installation Script` instructions listed here: [GPosingway Latest Release](https://github.com/gposingway/gposingway/releases/latest)  
 
 
@@ -161,12 +165,16 @@ As of ipsuShade version 2.0.0, my presets use shaders that will not be included 
 
 ## How do I use ipsuShade with a GShade install?
 
-The ipsuShade is included by default with <a href="https://github.com/Mortalitas/GShade/releases">GShade</a>.
+ipsuShade is included by default with <a href="https://github.com/Mortalitas/GShade/releases">GShade</a>.
 
+
+**Currently, it only includes ipsuShade v1.0.1, but it will include ipsuShade v2.0.0 on the next update (before Dawntrail).**
+
+<!--
 **Disclaimer:**
 
 >GShade is a *closed source* fork of ReShade that includes specific improvements to usability and compatibility with whitelisted games. There was an incident in Feburary 2023 where a poor decision was made by GShade's sole developer. The 4.1.1 update included anti-tampering code within the GShade installer that would restart Windows if a specific 3rd-party program was used to trigger functions within the installer to download certain assets independently (in an attempt to bypass a new GShade license agreement for certain textures and shaders). This code was removed after the obvious extremely negative reaction to the restart function from the community, but the reputational damage was already done. Therefore, *do use this program at your own judgement*. However, I do not want to punish innocent users who may not be able to use ReShade (e.g., Linux and Mac users) or may not have the technical ability to follow the install guides above. I have always held the stance that anyone may use and redistribute my presets or textures (as explained in my <a href="https://github.com/ipsusu/IpsuShade/blob/master/LICENSE.md">license<a>). My assets were excluded from the GShade license as they have always been offered freely and independently on my GitHub. I encourage my presets to be bundled with any possible ReShade forks in the future (please do get in touch!).
-
+-->
 <a href="https://github.com/Mortalitas/GShade/releases/latest">Click here to download the latest release of GShade, which includes ipsuShade by default.</a>
 
 After installation, you will be able to find the ipsuShade presets in the `gshade-presets\ipsuShade\` folder!
@@ -178,7 +186,6 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
 <br>
-
 
 
 <h1>Everything below this point is for ipsuShade 1.0.1, not 2.0.0</h1>
