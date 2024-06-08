@@ -118,7 +118,8 @@ There are two methods:
 
 
 **Install:**  
-Please follow the `Installation Script` instructions listed here: [GPosingway Latest Release](https://github.com/gposingway/gposingway/releases/latest)  
+You must already have ReShade installed to use GPosingway!  
+Please follow the `Installation Script` instructions listed here to add GPosingway to your ReShade install: [GPosingway Latest Release](https://github.com/gposingway/gposingway/releases/latest)  
 
 
 **Note.** You must say yes to the `iMMERSE` and `METEOR` optional packages when prompted by the installation script, as they are required by ipsuShade! 
