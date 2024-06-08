@@ -98,7 +98,7 @@ Each preset type comes in a range of 7 included colour variants.
 
 ## How do I use ipsuShade on a fresh ReShade install?
 
-<h3 align="center"> <a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_ReShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files for a fresh ReShade install. </a> </h3>
+<h3 align="center"> <a href='https://github.com/ipsusu/ipsuShade/archive/refs/heads/master.zip' target='_blank'> Click here to download ipsuShade files for a fresh ReShade install. </a> </h3>
 
 1. After ensuring you have downloaded ReShade as specified by the my guide, please download the `.zip` of the ipsuShade files above.
    - It's important that you've installed ReShade with <b>all of the avaliable effects</b>, as there are <b>no shaders provided with ipsuShade. It is all provided via the ReShade installer.</b>
@@ -119,6 +119,25 @@ Each preset type comes in a range of 7 included colour variants.
       
 5. You should now have a perfectly working install of ipsuShade.
 <br>
+
+
+<h1>Everything below this point is for ipsuShade 1.0.1, not 2.0.0</h1>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<hr>
+
+<hr>
 
 ## How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?
 
