@@ -103,6 +103,12 @@ Each preset type comes in a range of 7 included colour variants.
 10. You should now have a working ReShade install for FFXIV. However, it will have no presets. 
     - Follow the steps below to install <b>ipsuShade!</b>
 
+11. **For XIV Dawntrail and onwards, due to the Graphics Update, you require one last ReShade configuration step.**
+    - Boot into FFXIV, and open the ReShade overlay (By default, the keybind for this is the `Home` key, above your arrow keys.)
+    - Click the `Edit global preprocessor definitions` box in the middle of the overlay.
+    - In this menu, under the `RESHADE_DEPTH_INPUT_IS_REVERSED` section, change the value from `0` to `1`.
+    - Now click away from the menu, and your shaders should recompile. The depth buffer should now be working in Dawntrail (required for Depth of Field, MXAO shaders etc.)
+   <p align="center"> <img width="50%" src="https://i.imgur.com/pQDN5bo.png"> </p>
 <hr>
 
 ## How do I use ipsuShade on a fresh ReShade install?
@@ -110,7 +116,7 @@ Each preset type comes in a range of 7 included colour variants.
 <h3 align="center"> <a href='https://github.com/ipsusu/ipsuShade/archive/refs/heads/master.zip' target='_blank'> Click here to download ipsuShade files for a fresh ReShade install. </a> </h3>
 
 1. After ensuring you have downloaded ReShade as specified by the my guide, please download the `.zip` of the ipsuShade files above.
-   - It's important that you've installed ReShade with <b>all of the avaliable effects</b>, as there are <b>no shaders provided with ipsuShade. It is all provided via the ReShade installer.</b>
+   - It's important that you've installed ReShade with <b>all of the avaliable effects</b>, as there are <b>no shaders provided with ipsuShade. It is all provided via the ReShade installer.</b> (with the exception of Glamarye, since that can't be downloaded via the ReShade installer for some reason.)
 3. Drag and drop the two ReShade folders found inside the `ipsuShade_2406.zip` into your FFXIV installation `\game\` directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders.
 
     - For the Steam version, your directory is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
