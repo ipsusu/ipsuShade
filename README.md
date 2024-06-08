@@ -200,7 +200,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
    - Due to the significant changes between ipsuShade 1.0.1 and 2.0.0, your old `/reshade-shaders/` folder is incompatible with the update.
    - As such you must backup (copy it to a safe place) and delete then your old `/reshade-shaders/` folder, located in your FFXIV `/game/` folder.
      - I just create a new `backup` folder and then drag and drop the old `reshade-shaders` into it, like this: 
-     <p align="center"> <img width="50%" src="https://i.imgur.com/UUoxHdb.png"> </p>
+     <p align="center"> <img width="75%" src="https://i.imgur.com/UUoxHdb.png"> </p>
    - Then, you need to download the latest version of ReShade: <a href='http://static.reshade.me/#download' target='_blank'>here</a>. Specifically the `with full add-on support` version.
    - Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list.  
    You can search using the text input box above `Browse...`.
@@ -226,7 +226,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
   - You need to open your FFXIV `/game/` folder and navigate inside the `/reshade-presets/` folder.
   - Open the the  ipsuShade `.zip` you just downloaded, navigate inside it's `/reshade-presets/` folder.
   - Copy the `ipsuShade` folder from inside here, into the `/reshade-presets/` folder inside your FFXIV `/game/` folder.
-    <p align="center"> <img width="50%" src="https://i.imgur.com/mSqMYKp.png"> </p>
+    <p align="center"> <img width="75%" src="https://i.imgur.com/mSqMYKp.png"> </p>
   - You can now safely delete the old `Ipsusu` folder from the game presets folder also, this is the old folder containing the v1.0.1 presets.
   - You should now have manually updated your ReShade to use the standard ReShade shaders and installed the new ipsuShade presets!
 
