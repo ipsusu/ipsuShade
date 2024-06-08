@@ -104,6 +104,7 @@ Each preset type comes in a range of 7 included colour variants.
 10. To update ReShade in the future, simply repeat this process with the new installer `.exe`, but instead select the `Update ReShade and effects` option after Step 3.
 <p align="center"> <img width="50%" src="https://i.imgur.com/RtBlBj4.png"> </p>
 <hr>
+
 ## How do I use ipsuShade on a fresh ReShade install?
 
 There are two methods:
