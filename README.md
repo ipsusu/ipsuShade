@@ -1,7 +1,7 @@
 ipsuShade - Guidance on Pro Suite Supported Shaders:  
 - [iMMERSE Pro 2403](https://www.martysmods.com/rtgi/)
 - [iMMERSE Ultimate 2403](https://www.martysmods.com/relight/)
-- qUINT RTGI (v36.1, but lower versions will work.)
+- qUINT_rtgi.fx (v36.1, but lower versions will work.)
 - [NiceGuy COMPLETE_RT](https://www.patreon.com/NiceGuy147)
 
 <p align="center">
