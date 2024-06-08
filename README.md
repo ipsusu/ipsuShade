@@ -109,7 +109,7 @@ Each preset type comes in a range of 7 included colour variants.
 
 There are two methods:
 
-1. **GPosingway** - best compatibility, easy updates, other creator's presets included!
+1. **GPosingway** - best compatibility, easy updates, other creators' presets included!
 2. **Standalone Install** - if you just want ipsuShade.
 
 <h2>Install ipsuShade with GPosingway -</h2>
