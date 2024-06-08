@@ -5,10 +5,14 @@ ipsuShade - Guidance on Pro Suite Supported Shaders:
 - iMMERSE Ultimate 2403
 - qUINT RTGI (v36.1, but lower versions will work.)
 - NiceGuy COMPLETE_RT
+<p align="center">
+  <h1 align="center">ipsuShade v2.0.0 now avaliable in early access through <a href="https://github.com/gposingway/gposingway/releases/tag/R8.0.0">GPosingway</a>.
+</h1>
+</p>
 
 <p align="center">
   <h1 align="center">AS OF 2024-06-07:</h1>
-  <h4 align="center">CURRENTLY IN THE PROCESS OF BEING UPDATED.</h4>
+  <h4 align="center">THIS PAGE IS CURRENTLY IN THE PROCESS OF BEING UPDATED.</h4>
   <h4 align="center">PLEASE REFER TO THE NEXUS MODS PAGE <a target="_blank" href="https://www.nexusmods.com/finalfantasy14/mods/2000">HERE</a> OR WAIT FOR THE UPDATE (2 days max!!)</h4>
 </p>
 <hr>
