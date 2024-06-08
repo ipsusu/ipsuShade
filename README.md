@@ -69,22 +69,29 @@ Each preset type comes in a range of 7 included colour variants.
 
 1. Click <a href='http://static.reshade.me/#download' target='_blank'>here</a> to download the latest version of ReShade, specifically the `with full add-on support` version.
     - This is the version which allows use of add-ons and an unlocked depth buffer for Depth of Field effects and improved lighting and shadows.
+  <p align="center"> <img height="50%" src="https://i.imgur.com/U4U8wsl.png"> </p>
 
-2. Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list.
-    - Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe`.
-    - You may have to click the `Browse...` button and navigate to your FFXIV `/game/` folder to find this.
+
+2. Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list.  
+   You can search using the text input box above `Browse...`.  
+    - Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe` or `ffxivsysinfo.exe` etc.
+    - You may have to click the `Browse...` button and navigate to your FFXIV `/game/` folder to find the correct installation.
+  <p align="center"> <img width="50%" src="https://i.imgur.com/7REZK1S.png"> </p>
+
 
 3. For the rendering API step, select `Microsoft DirectX 10/11/12`. 
 
-4. <b>This is a bit counter intuitive, but:</b>  
-   When it asks you to select effect packages to install, you please first click  `Uncheck All` in the top right of the window.
-    - Please then click the same box again, which should have changed to `Check All`. 
-    - Every shader package should now be checked to download!
-    - We don't need all shaders for ipsuShade, but this ensures maximum compatibility with other all other presets and the file size increase is minimal.
+4. <b>This step is a bit counterintuitive, but:</b>  
+   When it asks you to select the effects (Shaders) you wish to install, you please first click  `Uncheck All` in the top right of the window.  
+   - Please then click the same box again, which should have changed to `Check All`.  
+   - Every shader package should now be checked to download. Please ensure it looks like the image below:
+   <p align="center"> <img width="50%" src="https://i.imgur.com/MFzJ7vw.png"> </p>
+  - We don't need need every one of these shaders for, but this ensures maximum compatibility with other all other presets and the file size increase is minimal.
+  - We need to first check `Uncheck All` as for some reason, SweetFX is checked by default, and this hides the `Check All` option...
   
 7. Please now click `Next` after ensuring all the effects have a checkmark next to them. The ReShade installer will now download these shaders. Please wait for this process to finish.
   
-8. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow filtering of UI elements seperately from the main image (FFKeepUI in GShade).
+8. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow the exclusion of UI / HUD elements from the preset filtering (FFKeepUI in GShade).
     - If you check this, you need to follow the FFXIV configuration steps listed <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV">here</a> to get it working.
     - <i><b> ! ! THIS WILL NEED TO BE UPDATED FOR DAWNTRAIL. IF YOUR GAME IS CRASHING, THIS IS WHY ! ! </b></i>
 
