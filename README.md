@@ -175,6 +175,7 @@ ipsuShade is included by default with <a href="https://github.com/Mortalitas/GSh
 
 >GShade is a *closed source* fork of ReShade that includes specific improvements to usability and compatibility with whitelisted games. There was an incident in Feburary 2023 where a poor decision was made by GShade's sole developer. The 4.1.1 update included anti-tampering code within the GShade installer that would restart Windows if a specific 3rd-party program was used to trigger functions within the installer to download certain assets independently (in an attempt to bypass a new GShade license agreement for certain textures and shaders). This code was removed after the obvious extremely negative reaction to the restart function from the community, but the reputational damage was already done. Therefore, *do use this program at your own judgement*. However, I do not want to punish innocent users who may not be able to use ReShade (e.g., Linux and Mac users) or may not have the technical ability to follow the install guides above. I have always held the stance that anyone may use and redistribute my presets or textures (as explained in my <a href="https://github.com/ipsusu/IpsuShade/blob/master/LICENSE.md">license<a>). My assets were excluded from the GShade license as they have always been offered freely and independently on my GitHub. I encourage my presets to be bundled with any possible ReShade forks in the future (please do get in touch!).
 -->
+
 <a href="https://github.com/Mortalitas/GShade/releases/latest">Click here to download the latest release of GShade, which includes ipsuShade by default.</a>
 
 After installation, you will be able to find the ipsuShade presets in the `gshade-presets\ipsuShade\` folder!
@@ -187,7 +188,61 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 
 <br>
 
+## How do I update from ipsuShade v1.0.1 to v2.0.0?
 
+**1. GPosingway.**   
+   - [GPosingway](https://github.com/gposingway/gposingway) will automatically clean up your install and install ipsuShade.
+   - Please follow the `Installation Script` instructions listed here: [GPosingway Latest Release](https://github.com/gposingway/gposingway/releases/latest)  
+   - **Note.** You must say yes to the `iMMERSE` and `METEOR` optional packages when prompted by the installation script, as they are required by ipsuShade!
+
+     
+**2. GShade.**
+   - [GShade](https://github.com/Mortalitas/GShade/releases/latest) will automatically clean up your install and install ipsuShade.
+   - Download the latest release: [here.](https://github.com/Mortalitas/GShade/releases/latest)
+
+     
+**3. Manually Update (Not Recommended)**
+   - Due to the significant changes between ipsuShade 1.0.1 and 2.0.0, your old `/reshade-shaders/` folder is incompatible with the update.
+   - As such you must backup (copy it to a safe place) and delete then your old `/reshade-shaders/` folder, located in your FFXIV `/game/` folder.
+     - I just create a new `backup` folder and then drag and drop the old `reshade-shaders` into it, like this: 
+     <p align="center"> <img width="50%" src="https://i.imgur.com/UUoxHdb.png"> </p>
+   - Then, you need to download the latest version of ReShade: <a href='http://static.reshade.me/#download' target='_blank'>here</a>. Specifically the `with full add-on support` version.
+   - Run the ReShade Setup executuable and select `FINAL FANTASY XIV (ffxiv_dx11.exe)` in the game/application list.  
+   You can search using the text input box above `Browse...`.
+-  Ensure it's `ffxiv_dx11.exe` and not `ffxiv.exe` or `ffxivboot.exe` or `ffxivsysinfo.exe` etc.
+    - You may have to click the `Browse...` button and navigate to your FFXIV `/game/` folder to find the correct installation.
+     <p align="center"> <img width="50%" src="https://i.imgur.com/7REZK1S.png"> </p>
+  - For the rendering API step, select `Microsoft DirectX 10/11/12`.
+  - If you've selected the correct `ffxiv_dx11.exe`, it should detect your previous ReShade installation and show the screen in the image below. You need to select the `Update ReShade and effects` option, then click `Next`.
+<p align="center"> <img width="50%" src="https://i.imgur.com/RtBlBj4.png"> </p>
+ - <b>This step is a bit counterintuitive, but:</b>  
+
+ 
+   When it asks you to select the effects (Shaders) you wish to install, you please first click  `Uncheck All` in the top right of the window.  
+  - Please then click the same box again, which should have changed to `Check All`.  
+  - Every shader package should now be checked to download. Please ensure it looks like the image below:
+   <p align="center"> <img width="50%" src="https://i.imgur.com/MFzJ7vw.png"> </p>
+
+  - Click `Next` on the add-ons page.
+   - You can manually install add-ons later if needed, just put the `.addon64` files in your FFXIV `/game/` folder.
+
+  - You should now have a working ReShade install for FFXIV with the correct shaders, however you now need to update to the new ipsuShade v2.0.0 presets.
+  - Click [HERE](https://github.com/ipsusu/ipsuShade/archive/refs/heads/master.zip) to download a `.zip` of the current ipsuShade files.
+  - You need to open your FFXIV `/game/` folder and navigate inside the `/reshade-presets/` folder.
+  - Open the the  ipsuShade `.zip` you just downloaded, navigate inside it's `/reshade-presets/` folder.
+  - Copy the `ipsuShade` folder from inside here, into the `/reshade-presets/` folder inside your FFXIV `/game/` folder.
+    <p align="center"> <img width="50%" src="https://i.imgur.com/mSqMYKp.png"> </p>
+  - You can now safely delete the old `Ipsusu` folder from the game presets folder also, this is the old folder containing the v1.0.1 presets.
+  - You should now have manually updated your ReShade to use the standard ReShade shaders and installed the new ipsuShade presets!
+
+- **For XIV Dawntrail and onwards, due to the Graphics Update, you require one last ReShade configuration step.**
+    - Boot into FFXIV, and open the ReShade overlay (By default, the keybind for this is the `Home` key, above your arrow keys.)
+    - Click the `Edit global preprocessor definitions` box in the middle of the overlay.
+    - In this menu, under the `RESHADE_DEPTH_INPUT_IS_REVERSED` section, change the value from `0` to `1`.
+    - Now click away from the menu, and your shaders should recompile. The depth buffer should now be working in Dawntrail (required for Depth of Field, MXAO shaders etc.)
+   <p align="center"> <img width="50%" src="https://i.imgur.com/pQDN5bo.png"> </p>
+   
+  
 <h1>Everything below this point is for ipsuShade 1.0.1, not 2.0.0</h1>
 
 <hr>
