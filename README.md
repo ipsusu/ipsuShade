@@ -5,17 +5,7 @@ ipsuShade - Guidance on Pro Suite Supported Shaders:
 - iMMERSE Ultimate 2403
 - qUINT RTGI (v36.1, but lower versions will work.)
 - NiceGuy COMPLETE_RT
-<p align="center">
-  <h1 align="center">ipsuShade v2.0.0 now avaliable in early access through <a href="https://github.com/gposingway/gposingway/releases/tag/R8.0.0">GPosingway</a>.
-</h1>
-</p>
 
-<p align="center">
-  <h1 align="center">AS OF 2024-06-07:</h1>
-  <h4 align="center">THIS PAGE IS CURRENTLY IN THE PROCESS OF BEING UPDATED.</h4>
-  <h4 align="center">PLEASE REFER TO THE NEXUS MODS PAGE <a target="_blank" href="https://www.nexusmods.com/finalfantasy14/mods/2000">HERE</a> OR WAIT FOR THE UPDATE (2 days max!!)</h4>
-</p>
-<hr>
 <p align="center">
   <h1 align="center">ipsuShade.</h1>
   <h3 align="center"> ReShade / GShade presets for Final Fantasy XIV.</h3>
@@ -31,6 +21,7 @@ ipsuShade - Guidance on Pro Suite Supported Shaders:
   - [How do I use ipsuShade on a fresh ReShade install?](#how-do-i-use-ipsushade-on-a-fresh-reshade-install)
   - [How do I use ipsuShade if I migrated to ReShade from a GShade install?](#how-do-i-use-ipsushade-if-i-migrated-to-reshade-from-a-gshade-install)
   - [How do I use ipsuShade with a GShade install?](#how-do-i-use-ipsushade-with-a-gshade-install)
+  - [How do I update from ipsuShade v1.0.1 to v2.0.0+?](#how-do-i-update-from-ipsushade-v101-to-v200)
 - In-Game settings and Troubleshooting:
   - [Required FFXIV in-game graphics settings.](#required-ffxiv-in-game-graphics-settings)
   - [Troubleshooting and Common Issues (especially when migrating from GShade).](#troubleshooting-and-common-issues-especially-when-migrating-from-gshade)
@@ -134,7 +125,7 @@ Please follow the `Installation Script` instructions listed here: [GPosingway La
 
 1. After ensuring you have downloaded ReShade as specified by the my guide, please download the `.zip` of the ipsuShade files above.
    - It's important that you've installed ReShade with <b>all of the avaliable effects</b>, as there are <b>no shaders provided with ipsuShade. It is all provided via the ReShade installer.</b> (with the exception of Glamarye, since that can't be downloaded via the ReShade installer for some reason.)
-3. Drag and drop the two ReShade folders found inside the `ipsuShade_2406.zip` into your FFXIV installation `\game\` directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders.
+3. Drag and drop the two ReShade folders found inside the `ipsuShade-master.zip` into your FFXIV installation `\game\` directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders.
 
     - For the Steam version, your directory is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
 
@@ -188,7 +179,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 
 <br>
 
-## How do I update from ipsuShade v1.0.1 to v2.0.0?
+## How do I update from ipsuShade v1.0.1 to v2.0.0+?
 
 **1. GPosingway.**   
    - [GPosingway](https://github.com/gposingway/gposingway) will automatically clean up your install and install ipsuShade.
@@ -224,9 +215,9 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
    <p align="center"> <img width="50%" src="https://i.imgur.com/MFzJ7vw.png"> </p>
 
   - Click `Next` on the add-ons page.
-   - You can manually install add-ons later if needed, just put the `.addon64` files in your FFXIV `/game/` folder.
+     - You can manually install add-ons later if needed, just put the `.addon64` files in your FFXIV `/game/` folder.
 
-  - You should now have a working ReShade install for FFXIV with the correct shaders, however you now need to update to the new ipsuShade v2.0.0 presets.
+  - You should now have a working ReShade install for FFXIV with the correct shaders, however **you now need to update to the new ipsuShade v2.0.0 presets.**
   - Click [HERE](https://github.com/ipsusu/ipsuShade/archive/refs/heads/master.zip) to download a `.zip` of the current ipsuShade files.
   - You need to open your FFXIV `/game/` folder and navigate inside the `/reshade-presets/` folder.
   - Open the the  ipsuShade `.zip` you just downloaded, navigate inside it's `/reshade-presets/` folder.
@@ -242,27 +233,11 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
     - Now click away from the menu, and your shaders should recompile. The depth buffer should now be working in Dawntrail (required for Depth of Field, MXAO shaders etc.)
    <p align="center"> <img width="50%" src="https://i.imgur.com/pQDN5bo.png"> </p>
    
-  
-<h1>Everything below this point is for ipsuShade 1.0.1, not 2.0.0</h1>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
 ## Troubleshooting and Common Issues (especially when migrating from GShade).
 
+WIP FOR DAWNTRAIL
+
+<!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
 
 Here are a couple of common issues and solutions:
@@ -331,20 +306,24 @@ Here are a couple of common issues and solutions:
   This is an issue with ReShade not being compatible with the dynamic resolution setting ingame. Please disable this ingame setting if you are having ghosting issues.
 
     **Solution**: In-game FFXIV Graphics Settings -> Enable dynamic resolution: `Off`
-
+-->
 ## Required FFXIV in-game graphics settings:
 
+WIP FOR DAWNTRAIL
+<!--
 - Enable dynamic resolution: `Off`
 
 - Edge Smoothing (Anti-Aliasing): `FXAA`
 
 - Naturally darken the edges of the screen. (Limb Darkening): `Off`
-
+-->
 ## Donate
 
 You can donate or tip me some lunch money here:
 
 <a href='https://ko-fi.com/ipsusu' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>
+
+
 <!--
 ## Bespoke ReShade Preset Commissions
 
