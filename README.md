@@ -1,10 +1,8 @@
 ipsuShade - Guidance on Pro Suite Supported Shaders:  
-- iMMERSE (Free)
-- METEOR (Free)
-- iMMERSE Pro 2403
-- iMMERSE Ultimate 2403
+- [iMMERSE Pro 2403](https://www.martysmods.com/rtgi/)
+- [iMMERSE Ultimate 2403](https://www.martysmods.com/relight/)
 - qUINT RTGI (v36.1, but lower versions will work.)
-- NiceGuy COMPLETE_RT
+- [NiceGuy COMPLETE_RT](https://www.patreon.com/NiceGuy147)
 
 <p align="center">
   <h1 align="center">ipsuShade.</h1>
