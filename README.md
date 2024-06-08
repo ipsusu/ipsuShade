@@ -156,41 +156,30 @@ Each preset type comes in a range of 7 included colour variants.
 
 ## How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?
 
-The Ipsusu presets were originally (and currently) included with a GShade install. 
+The simplest way forward here would be to just install ReShade again from scratch using the guide above, and then only use presets verified to work with this standard. The problem is that people are using a bunch of outdated shaders in the GShade file structure format, which causes shader duplication issues when using the proper ReShade standard.
 
-As such, <i>you should already have the presets</i> and you will be able to find them in the `gshade-presets\Ipsusu\` folder!
+However, the majority of other creators presets are only compatible with GShade, and will have issues working with the ReShade standrard adopted by ipsuShade 2.0.0. It's a big problem, and it's why packages like [GPosingway](https://github.com/gposingway/gposingway) now exist. 
 
-1. Click the `gshade-presets` folder from your migrated install and scroll down to find the `Ipsusu` folder.
+As of ipsuShade version 2.0.0, my presets use shaders that will not be included in any old GShade installs. If you add these specific shader packages to your `gshade-shaders` folder, and then use my new preset files, it will work:
+- iMMERSE
+- METEOR
+- ZN_FX
 
-2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> for an explanation of the presets!
+## How do I use ipsuShade with a GShade install?
 
-    - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
-
-<h3>If you haven't installed GShade since 2023-02-07, my <code>Screenie</code> and <code>Ultimate</code> presets have been updated from the version included with GShade. </h3>
-
-Due to the status of many GShade installs, you may need to manually update these by downloading the folder below and overwriting these presets in your `gshade-presets\Ipsusu` folder. You should not need to update the `gshade-shaders` but there is no harm in this as they are the exact same versions as included.
-
-If the guide you followed or program you used to migrate renamed your presets and shader folders from `gshade-xxxxxx` to `reshade-xxxxxx`, use the download in the <a href="https://github.com/ipsusu/IpsuShade#how-do-i-use-the-ipsusu-presets-ipsushade-on-a-fresh-reshade-install">prior section</a>.
-
-If you still have a `gshade-presets` and `gshade-shaders` folder: 
-
-<a href='https://raw.githubusercontent.com/ipsusu/IpsuShade/master/IpsuShade_GShadeFolderRelease.zip' target='_blank'> Click here to download IpsuShade files using the gshade-presets and gshade-shaders folder names. </a>
-
-## How do I use the Ipsusu Presets (IpsuShade) with a GShade install?
-
-The Ipsusu presets are included with <a href="https://github.com/Mortalitas/GShade/releases">GShade</a> installs by default through their installer. 
+The ipsuShade is included by default with <a href="https://github.com/Mortalitas/GShade/releases">GShade</a>.
 
 **Disclaimer:**
 
 >GShade is a *closed source* fork of ReShade that includes specific improvements to usability and compatibility with whitelisted games. There was an incident in early Feburary 2023 where a poor decision was made by GShade's sole developer. The 4.1.1 update included anti-tampering code within the GShade installer that would restart Windows if a specific 3rd-party program was used to trigger functions within the installer to download certain assets independently (in an attempt to bypass a new GShade license agreement for certain textures and shaders). This code was removed after the obvious extremely negative reaction to the restart function from the community, but the reputational damage was already done. Therefore, *do use this program at your own judgement*. However, I do not want to punish innocent users who may not be able to use ReShade (e.g., Linux and Mac users) or may not have the technical ability to follow the install guides above. I have always held the stance that anyone may use and redistribute my presets or textures (as explained in my <a href="https://github.com/ipsusu/IpsuShade/blob/master/LICENSE.md">license<a>). My assets were excluded from the GShade license as they have always been offered freely and independently on my GitHub. I encourage my presets to be bundled with any possible ReShade forks in the future (please do get in touch!).
 
-<a href="https://github.com/Mortalitas/GShade/releases/latest">Click here to download the latest release of GShade, which includes IpsuShade by default.</a>
+<a href="https://github.com/Mortalitas/GShade/releases/latest">Click here to download the latest release of GShade, which includes ipsuShade by default.</a>
 
-After installation, you will be able to find the Ipsusu presets in the `gshade-presets\Ipsusu\` folder!
+After installation, you will be able to find the ipsuShade presets in the `gshade-presets\ipsuShade\` folder!
 
-1. Click the `gshade-presets` folder if it is not already selected, and scroll down to find the `Ipsusu` folder.
+1. Click the `gshade-presets` folder if it is not already selected, and scroll down to find the `ipsuShade` folder.
 
-2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/IpsuShade#what-is-ipsushade">here</a> for an explanation of the presets.
+2. Simply double click any of the `.ini` presets to enable them. See <a href="https://github.com/ipsusu/ipsuShade#what-is-ipsushade">here</a> for an explanation of the presets.
 
     - Click the two dots at the top (the "..") to go back to the main folder if you would like to swap to another creator's preset.
 
