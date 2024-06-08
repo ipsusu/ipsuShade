@@ -92,11 +92,13 @@ Each preset type comes in a range of 7 included colour variants.
 7. Please now click `Next` after ensuring all the effects have a checkmark next to them. The ReShade installer will now download these shaders. Please wait for this process to finish.
   
 8. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow the exclusion of UI / HUD elements from the preset filtering (FFKeepUI in GShade).
-    - If you check this, you need to follow the FFXIV configuration steps listed <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV">here</a> to get it working.
-    - <i><b> ! ! THIS WILL NEED TO BE UPDATED FOR DAWNTRAIL. IF YOUR GAME IS CRASHING, THIS IS WHY ! ! </b></i>
+    - If you check this, <b>you need to download the FFXIV preconfigured `ReshadeEffectShaderToggler.ini` found <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV/blob/main/ReshadeEffectShaderToggler.ini">here</a> to get it working.</b> Just place it next to the `ReshadeEffectShaderToggler.addon64` in your `/game/` folder.
+    - <i><b> ! ! THIS WILL NEED TO BE UPDATED FOR DAWNTRAIL. IT DOES NOT WORK ON THE BENCHMARK. IF YOUR GAME IS CRASHING, THIS IS WHY ! ! </b></i>
+    - To remove this addon, just delete the `ReshadeEffectShaderToggler.addon64` from your game folder.
+   <p align="center"> <img width="50%" src="https://i.imgur.com/0OxKNxB.png"> </p>
 
 9. Click `Next` on the add-ons page.
-   - You can manually install add-ons later if needed.
+   - You can manually install add-ons later if needed, just put the `.addon64` files in your FFXIV `/game/` folder.
 
 10. You should now have a working ReShade install for FFXIV. However, it will have no presets. 
     - Follow the steps below to install <b>ipsuShade!</b>
