@@ -27,13 +27,13 @@ ipsuShade - Guidance on Pro Suite Supported Shaders:
 - [What is ipsuShade?](#what-is-ipsushade)
 - Software Install Guides:
   - [ReShade install guide for FFXIV.](#reshade-install-guide-for-ffxiv)
-- Preset/Shader Install Guides:
+- ipsuShade Install Guides:
   - [How do I use ipsuShade on a fresh ReShade install?](#how-do-i-use-ipsushade-on-a-fresh-reshade-install)
-  - [How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-if-i-migrated-to-reshade-from-a-gshade-install)
-  - [How do I use the Ipsusu Presets (IpsuShade) with a GShade install?](#how-do-i-use-the-ipsusu-presets-ipsushade-with-a-gshade-install)
-- Settings and Troubleshooting:
-  - [Troubleshooting and Common Issues (especially when migrating from GShade).](#troubleshooting-and-common-issues-especially-when-migrating-from-gshade)
+  - [How do I use ipsuShade if I migrated to ReShade from a GShade install?](#how-do-i-use-ipsushade-if-i-migrated-to-reshade-from-a-gshade-install)
+  - [How do I use ipsuShade with a GShade install?](#how-do-i-use-ipsushade-with-a-gshade-install)
+- In-Game settings and Troubleshooting:
   - [Required FFXIV in-game graphics settings.](#required-ffxiv-in-game-graphics-settings)
+  - [Troubleshooting and Common Issues (especially when migrating from GShade).](#troubleshooting-and-common-issues-especially-when-migrating-from-gshade)
 - Misc:
   - [Donate](#donate)
   - [Contact](#contact)
@@ -113,6 +113,17 @@ Each preset type comes in a range of 7 included colour variants.
 
 ## How do I use ipsuShade on a fresh ReShade install?
 
+There are two methods:
+
+1. **GPosingway** - best compatibility, easy updates, other creator's presets included!
+2. **Standalone Install** - if you just want ipsuShade.
+
+<h2>Install ipsuShade with GPosingway -</h2>
+
+Please follow the `Installation Script` instructions listed here: [GPosingway Latest Release](https://github.com/gposingway/gposingway/releases/latest)
+**Note.** the `iMMERSE` and `METEOR` optional packages must be downloaded as part of the installation script, as they are required by ipsuShade.
+
+<h2>Standalone ipsuShade Installation Steps -</h2>
 <h3 align="center"> <a href='https://github.com/ipsusu/ipsuShade/archive/refs/heads/master.zip' target='_blank'> Click here to download ipsuShade files for a fresh ReShade install. </a> </h3>
 
 1. After ensuring you have downloaded ReShade as specified by the my guide, please download the `.zip` of the ipsuShade files above.
@@ -154,7 +165,7 @@ Each preset type comes in a range of 7 included colour variants.
 
 <hr>
 
-## How do I use the Ipsusu Presets (IpsuShade) if I migrated to ReShade from a GShade install?
+## How do I use ipsuShade if I migrated to ReShade from a GShade install?
 
 The simplest way forward here would be to just install ReShade again from scratch using the guide above, and then only use presets verified to work with this standard. The problem is that people are using a bunch of outdated shaders in the GShade file structure format, which causes shader duplication issues when using the proper ReShade standard.
 
