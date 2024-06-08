@@ -150,9 +150,9 @@ The simplest way forward here would be to just install ReShade again from scratc
 However, the majority of other creators presets are only compatible with GShade, and will have issues working with the ReShade standrard adopted by ipsuShade 2.0.0. It's a big problem, and it's why packages like [GPosingway](https://github.com/gposingway/gposingway) now exist. 
 
 As of ipsuShade version 2.0.0, my presets use shaders that will not be included in any old GShade installs. If you add these specific shader packages to your `gshade-shaders` folder, and then use my new preset files, it will work:
-- iMMERSE
-- METEOR
-- ZN_FX
+- [iMMERSE](https://github.com/martymcmodding/iMMERSE)
+- [METEOR](https://github.com/martymcmodding/METEOR)
+- [ZN_FX](https://github.com/Zenteon/ZN_FX)
 
 ## How do I use ipsuShade with a GShade install?
 
