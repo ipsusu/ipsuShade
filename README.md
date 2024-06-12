@@ -126,7 +126,7 @@ Please follow the `Installation Script` instructions listed here to add GPosingw
 <h3 align="center"> <a href='https://github.com/ipsusu/ipsuShade/releases/download/v2.0.0/ipsuShade_2406.zip' target='_blank'> Click here to download ipsuShade files for a fresh ReShade install. </a> </h3>
 
 1. After ensuring you have downloaded ReShade as specified by the guide above, please download the `.zip` of the ipsuShade files using the link above.
-   - It's important that you've installed ReShade with <b>all of the avaliable effects</b>, as there are <b>no shaders provided with ipsuShade. It is all provided via the ReShade installer.</b> (with the exception of Glamarye, since that can't be downloaded via the ReShade installer for some reason.)
+   - It's important that you've installed ReShade with <b>all of the avaliable effects</b>, as there are only a very few shaders provided with ipsuShade. The vast majority of shaders are provided via the ReShade installer.</b>
 3. Drag and drop the two ReShade folders found inside the `ipsuShade_2406.zip` into your FFXIV installation `\game\` directory. Be sure to merge and overwrite the existing `reshade-presets` and `reshade-shaders` folders.
 
     - For the Steam version, your directory is most likely: `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\`
