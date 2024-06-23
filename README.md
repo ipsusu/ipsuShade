@@ -225,7 +225,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
   - Open the the  ipsuShade `.zip` you just downloaded, navigate inside it's `/reshade-presets/` folder.
   - Copy the `ipsuShade` folder from inside here, into the `/reshade-presets/` folder inside your FFXIV `/game/` folder.
     <p align="center"> <img width="75%" src="https://i.imgur.com/mSqMYKp.png"> </p>
-  - You can now safely delete the old `Ipsusu` folder from the game presets folder also, this is the old folder containing the v1.0.1 presets.
+  - You can now safely delete the old `Ipsusu` folder from the game presets folder also, this is the old folder containing the v1.0.1 presets. These will no longer work properly with the new shaders, so you should probably do this.
   - You should now have manually updated your ReShade to use the standard ReShade shaders and installed the new ipsuShade presets!
 
 - **For XIV Dawntrail and onwards, due to the Graphics Update, you require one last ReShade configuration step.**
