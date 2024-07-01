@@ -22,7 +22,7 @@ ipsuShade - Guidance on Pro Suite Supported Shaders:
   - [How do I update from ipsuShade v1.0.1 to v2.0.0+?](#how-do-i-update-from-ipsushade-v101-to-v200)
 - In-Game settings and Troubleshooting:
   - [Required FFXIV in-game graphics settings.](#required-ffxiv-in-game-graphics-settings)
-  - [Troubleshooting and Common Issues (especially when migrating from GShade).](#troubleshooting-and-common-issues-especially-when-migrating-from-gshade)
+  - [Troubleshooting and Common Issues (Updated for Dawntrail Graphics Update)](#troubleshooting-and-common-issues-updated-for-dawntrail-graphics-update)
 - Misc:
   - [Donate](#donate)
   - [Contact](#contact)
@@ -231,7 +231,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
     - Now click away from the menu, and your shaders should recompile. The depth buffer should now be working in Dawntrail (required for Depth of Field, MXAO shaders etc.)
    <p align="center"> <img width="50%" src="https://i.imgur.com/pQDN5bo.png"> </p>
    
-## Troubleshooting and Common Issues (Updated for Dawntrail Graphics Update).
+## Troubleshooting and Common Issues (Updated for Dawntrail Graphics Update)
 
 <strong>Please first ensure your install is correct:</strong>
 1. Check that you don't have duplicate shaders.
@@ -248,6 +248,35 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
     <img src="https://i.imgur.com/rKct8Tt.png"></img>
     - If you see this message, you are using the wrong version of ReShade. You need to reinstall with the "full add-on support" version, which can be [found here.](https://reshade.me/#download)
   
+3. Make sure your ReShade has a reversed depth buffer.
+   - The depth buffer (the thing that ReShade reads for depth information) has been reversed with the Dawntrail Graphics Update.
+   - You can check if your ReShade install has been configured to accept the reversed depth buffer by checking here:
+     
+     <img width="50%" src="https://i.imgur.com/pQDN5bo.png">
+  
+     If you cannot see the "Edit Global Preprocessor Definitions" button, disable `Performance Mode` by unchecking the box at the bottom of the overlay)
+  - The value should be `1`, if it is `0`, you need to set it to `1` for it to work in FFXIV. 
+   
+
+
+### My shaders are not lined up with the edge of my character, they're floating to the top left!
+
+<img width="25%" src="https://i.imgur.com/1ABDbmJ.png"></img>
+
+This is because of the in-game Graphics Upscaling setting and/or 3D Resolution Scaling settings. FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
+
+To fix this you can:
+
+- Select the upscaled scaled depth buffer value in the settings of the "Generic Depth" addon.
+  - To do this, go to the "Add-ons" tab in your ReShade overlay, and look under the `Generic Depth` addon.
+  - You need to click the checkbox next to one of the values that match your monitor's native resolution (for me, in this screenshot, it's 2560x1440).
+    - It's normally the top one, but use trial and error and iterate through these settings until you can see the shaders line up properly with the in-game image.
+    - For me, it was this one:
+  
+    <img src="https://i.imgur.com/n2fSASw.png"></img>
+
+    - Your stuff should now work!
+    - If not, you may need to simply disable the Graphics Upscaling. You can currently do this by turning the `Graphics Upscaling` value to `FSR` and then setting the `3D Resolution Scaling` slider to `100`.
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
 
