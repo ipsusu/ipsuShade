@@ -231,10 +231,23 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
     - Now click away from the menu, and your shaders should recompile. The depth buffer should now be working in Dawntrail (required for Depth of Field, MXAO shaders etc.)
    <p align="center"> <img width="50%" src="https://i.imgur.com/pQDN5bo.png"> </p>
    
-## Troubleshooting and Common Issues (especially when migrating from GShade).
+## Troubleshooting and Common Issues (Updated for Dawntrail Graphics Update).
 
-WIP FOR DAWNTRAIL
+<strong>Please first ensure your install is correct:</strong>
+1. Check that you don't have duplicate shaders.
+   - If you have multiple of the exact same shader enabled (shown in the ReShade overlay), this means you have duplicates of shaders in your `reshade-shaders/Shaders` folder.
+     - This is likely caused by trying to manually merge shader packages or update shaders in an imprecise way.
+    
+       <img src="https://i.imgur.com/7zlVhnc.png"></img>
 
+   - To solve this, either manually clean your `reshade-shaders/Shaders` by searching for and deleting duplicates, or entirely delete your `reshade-shaders/Shaders` folder and reinstall the shaders fresh via one of the methods listed at the start of this document.
+
+2. Make sure you are using the "with full add-on support" version of ReShade.
+    - You can check this by going to the "Add-ons" tab in the ReShade overlay and checking if you see this message at the top:
+
+    <img src="https://i.imgur.com/rKct8Tt.png"></img>
+    - If you see this message, you are using the wrong version of ReShade. You need to reinstall with the "full add-on support" version, which can be [found here.](https://reshade.me/#download)
+  
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
 
