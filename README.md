@@ -21,8 +21,8 @@ ipsuShade - Guidance on Pro Suite Supported Shaders:
   - [How do I use ipsuShade with a GShade install?](#how-do-i-use-ipsushade-with-a-gshade-install)
   - [How do I update from ipsuShade v1.0.1 to v2.0.0+?](#how-do-i-update-from-ipsushade-v101-to-v200)
 - In-Game settings and Troubleshooting:
-  - [Required FFXIV in-game graphics settings.](#required-ffxiv-in-game-graphics-settings)
   - [Troubleshooting and Common Issues (Updated for Dawntrail Graphics Update)](#troubleshooting-and-common-issues-updated-for-dawntrail-graphics-update)
+  - [Required FFXIV in-game graphics settings.](#required-ffxiv-in-game-graphics-settings)
 - Misc:
   - [Donate](#donate)
   - [Contact](#contact)
