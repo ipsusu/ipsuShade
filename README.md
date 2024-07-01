@@ -265,7 +265,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 
 This is because of the in-game Graphics Upscaling setting and/or 3D Resolution Scaling settings. FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
 
-To fix this you can:
+**To fix this you can:**
 
 - Select the upscaled scaled depth buffer value in the settings of the "Generic Depth" addon.
   - To do this, go to the "Add-ons" tab in your ReShade overlay, and look under the `Generic Depth` addon.
