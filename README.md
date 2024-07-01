@@ -277,6 +277,23 @@ To fix this you can:
 
     - Your stuff should now work!
     - If not, you may need to simply disable the Graphics Upscaling. You can currently do this by turning the `Graphics Upscaling` value to `FSR` and then setting the `3D Resolution Scaling` slider to `100`.
+
+### My game is green!
+
+<img width="33%" src="https://i.imgur.com/mGTAvfV.jpeg"></img>
+
+**FIRST ENSURE YOUR INSTALL IS CORRECT BY FOLLOWING THE [3 STEPS AT THE START OF THIS SECTION!!!](#troubleshooting-and-common-issues-updated-for-dawntrail-graphics-update)**
+
+This issue can also be caused by duplicate shaders. If your install is seemingly fine, then:
+
+**If you are using GPosingway:**
+- Update your MultiLUT.fx file (found in `/game/reshade-shaders/Shaders/MultiLut.fx`) with the latest version from GShade: [https://github.com/Mortalitas/GShade/blob/master/Shaders/MultiLUT.fx](https://github.com/Mortalitas/GShade/blob/master/Shaders/MultiLUT.fx)
+- Ensure you are using the most up-to-date version of my `MultiLut_Ipsusu.png` file. Replace the one downloaded from [here](https://github.com/ipsusu/ipsuShade/blob/master/reshade-shaders/Textures/MultiLut_Ipsusu.png) with the one found in your `/game/reshade-shaders/Textures/MultiLut_Ipsusu.png` directory.
+
+**If you are using a standalone install of ipsuShade:**
+- Update your MultiLUT.fx file (found in `/game/reshade-shaders/Shaders/MultiLut.fx`) with the latest version from the offical repo: [https://github.com/FransBouma/OtisFX/blob/master/Shaders/MultiLUT.fx](https://github.com/FransBouma/OtisFX/blob/master/Shaders/MultiLUT.fx)
+- Ensure you are using the most up-to-date version of my `MultiLut_Ipsusu.png` file. Replace the one downloaded from [here](https://github.com/ipsusu/ipsuShade/blob/master/reshade-shaders/Textures/MultiLut_Ipsusu.png) with the one found in your `/game/reshade-shaders/Textures/MultiLut_Ipsusu.png` directory.
+
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
 
