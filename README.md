@@ -206,7 +206,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 <p align="center"> <img width="50%" src="https://i.imgur.com/RtBlBj4.png"> </p>
  - <b>This step is a bit counterintuitive, but:</b>  
 
- 
+
    When it asks you to select the effects (Shaders) you wish to install, you please first click  `Uncheck All` in the top right of the window.  
   - Please then click the same box again, which should have changed to `Check All`.  
   - Every shader package should now be checked to download. Please ensure it looks like the image below:
@@ -235,26 +235,28 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 
 **Please first ensure your install is correct:**
 **1. Check that you don't have duplicate shaders.**
-   - If you have multiple of the exact same shader enabled (shown in the ReShade overlay), this means you have duplicates of shaders in your `reshade-shaders/Shaders` folder.
-     - This is likely caused by trying to manually merge shader packages or update shaders in an imprecise way.
+  - If you have multiple of the exact same shader enabled (shown in the ReShade overlay), this means you have duplicates of shaders in your `reshade-shaders/Shaders` folder.
+    - This is likely caused by trying to manually merge shader packages or update shaders in an imprecise way.
+    
+    <img src="https://i.imgur.com/7zlVhnc.png"></img>
 
-       <img src="https://i.imgur.com/7zlVhnc.png"></img>
+    - To solve this, either manually clean your `reshade-shaders/Shaders` by searching for and deleting duplicates, or entirely delete your `reshade-shaders/Shaders` folder and reinstall the shaders fresh via one of the methods listed at the start of this document.
 
-   - To solve this, either manually clean your `reshade-shaders/Shaders` by searching for and deleting duplicates, or entirely delete your `reshade-shaders/Shaders` folder and reinstall the shaders fresh via one of the methods listed at the start of this document.
- 
 **2. Make sure you are using the "with full add-on support" version of ReShade.**
-    - You can check this by going to the "Add-ons" tab in the ReShade overlay and checking if you see this message at the top:
+  - You can check this by going to the "Add-ons" tab in the ReShade overlay and checking if you see this message at the top:
 
-  <img src="https://i.imgur.com/rKct8Tt.png"></img>
-    - If you see this message, you are using the wrong version of ReShade. You need to reinstall with the "full add-on support" version, which can be [found here.](https://reshade.me/#download)
+    <img src="https://i.imgur.com/rKct8Tt.png"></img>
+
+  - If you see this message, you are using the wrong version of ReShade. You need to reinstall with the "full add-on support" version, which can be [found here.](https://reshade.me/#download)
   
 **3. Make sure your ReShade has a reversed depth buffer.**
    - The depth buffer (the thing that ReShade reads for depth information) has been reversed with the Dawntrail Graphics Update.
    - You can check if your ReShade install has been configured to accept the reversed depth buffer by checking here:
-     
+
      <img width="50%" src="https://i.imgur.com/pQDN5bo.png">
-  
+
      If you cannot see the "Edit Global Preprocessor Definitions" button, disable `Performance Mode` by unchecking the box at the bottom of the overlay)
+  
   - The value should be `1`, if it is `0`, you need to set it to `1` for it to work in FFXIV. 
    
 
