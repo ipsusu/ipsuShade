@@ -291,11 +291,11 @@ This issue can also be caused by duplicate shaders. If your install is seemingly
 
 **If you are using GPosingway:**
 - Update your MultiLUT.fx file (found in `/game/reshade-shaders/Shaders/MultiLut.fx`) with the latest version from GShade: [https://github.com/Mortalitas/GShade/blob/master/Shaders/MultiLUT.fx](https://github.com/Mortalitas/GShade/blob/master/Shaders/MultiLUT.fx)
-- Ensure you are using the most up-to-date version of my `MultiLut_Ipsusu.png` file. Replace the one downloaded from [here](https://github.com/ipsusu/ipsuShade/blob/master/reshade-shaders/Textures/MultiLut_Ipsusu.png) with the one found in your `/game/reshade-shaders/Textures/MultiLut_Ipsusu.png` directory.
+- Ensure you are using the most up-to-date version of my `MultiLut_Ipsusu.png` file. Replace the one found in your `/game/reshade-shaders/Textures/MultiLut_Ipsusu.png` directory with the one downloaded from [here.](https://github.com/ipsusu/ipsuShade/blob/master/reshade-shaders/Textures/MultiLut_Ipsusu.png)
 
 **If you are using a standalone install of ipsuShade:**
 - Update your MultiLUT.fx file (found in `/game/reshade-shaders/Shaders/MultiLut.fx`) with the latest version from the offical repo: [https://github.com/FransBouma/OtisFX/blob/master/Shaders/MultiLUT.fx](https://github.com/FransBouma/OtisFX/blob/master/Shaders/MultiLUT.fx)
-- Ensure you are using the most up-to-date version of my `MultiLut_Ipsusu.png` file. Replace the one downloaded from [here](https://github.com/ipsusu/ipsuShade/blob/master/reshade-shaders/Textures/MultiLut_Ipsusu.png) with the one found in your `/game/reshade-shaders/Textures/MultiLut_Ipsusu.png` directory.
+- Ensure you are using the most up-to-date version of my `MultiLut_Ipsusu.png` file. Replace the one found in your `/game/reshade-shaders/Textures/MultiLut_Ipsusu.png` directory with the one downloaded from [here.](https://github.com/ipsusu/ipsuShade/blob/master/reshade-shaders/Textures/MultiLut_Ipsusu.png)
 
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
