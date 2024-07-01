@@ -281,7 +281,7 @@ This is because of the in-game Graphics Upscaling setting and/or 3D Resolution S
     - Your stuff should now work!
     - If not, you may need to simply disable the Graphics Upscaling. You can currently do this by turning the `Graphics Upscaling` value to `FSR` and then setting the `3D Resolution Scaling` slider to `100`.
 
-### My game is green!
+### My game is green! (or Pink!)
 
 <img width="33%" src="https://i.imgur.com/mGTAvfV.jpeg"></img>
 
