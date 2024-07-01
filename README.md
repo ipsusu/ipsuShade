@@ -234,6 +234,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 ## Troubleshooting and Common Issues (Updated for Dawntrail Graphics Update)
 
 **Please first ensure your install is correct:**
+
 **1. Check that you don't have duplicate shaders.**
   - If you have multiple of the exact same shader enabled (shown in the ReShade overlay), this means you have duplicates of shaders in your `reshade-shaders/Shaders` folder.
     - This is likely caused by trying to manually merge shader packages or update shaders in an imprecise way.
