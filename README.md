@@ -389,6 +389,24 @@ WIP FOR DAWNTRAIL
 
 - Naturally darken the edges of the screen. (Limb Darkening): `Off`
 -->
+
+## Experimental REST Transparency fix.
+
+Please report to me any issues you have with this!
+
+***Required REST version: [1.3.19](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/tag/v1.3.19)***
+
+**Last updated:** 2024-07-02
+
+**Download:** [1.3.19 ReshadeEffectShaderToggler.ini config with ipsusuTransparencyFix.
+](https://gist.github.com/ipsusu/dca929d0d52a56f16d8b81c6afab0e7b)
+
+Example preset to use with the config - Download: [ipsusuQuestingLite - Melon.ini](https://gist.github.com/ipsusu/dca929d0d52a56f16d8b81c6afab0e7b)
+
+**NOTE:**  I've significantly increased the sharpening in the preset to counteract some of the softening caused by DLSS (DLAA, specifically). 
+
+if the game looks fucked up to you, turn the "Sharpen Strength" slider down under the "Effects Intensity" tab of the Glamarye settings.
+
 ## Donate
 
 You can donate or tip me some lunch money here:
