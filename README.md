@@ -407,6 +407,9 @@ Example preset to use with the config - Download: [ipsusuQuestingLite - Melon.in
 
 if the game looks fucked up to you, turn the "Sharpen Strength" slider down under the "Effects Intensity" tab of the Glamarye settings.
 
+**Known bugs:**
+Seems to be a flickering issue with iMMERSE MXAO and Glamarye sometimes? Disabling iMMERSE fixes this.
+
 ## Donate
 
 You can donate or tip me some lunch money here:
