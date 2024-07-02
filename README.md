@@ -303,8 +303,11 @@ This issue can also be caused by duplicate shaders. If your install is seemingly
 
 This seems to be an issue with the ReShade installer downloading an old version of the REST (ReshadeEffectShaderToggler) add-on for exclusion of UI filtering, that doesn't play well with the Glamarye Fast Effects shader.
 
-Update your REST here: [https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/)
-Update your REST FFXIV specific config here: [https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV)
+This can be fixed by updating your REST add-on and it's FFXIV specific config. Both the `ReshadeEffectShaderToggler.addon64` and `ReshadeEffectShaderToggler.ini` should be copied into your `/game/` folder. Replace/overwrite.
+
+**Update your REST here:** [https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/)
+
+**Update your REST FFXIV specific config here:** [https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV)
 
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
