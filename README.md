@@ -241,7 +241,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
     
     <img src="https://i.imgur.com/7zlVhnc.png"></img>
 
-    - To solve this, either manually clean your `reshade-shaders/Shaders` by searching for and deleting duplicates, or entirely delete your `reshade-shaders/Shaders` folder and reinstall the shaders fresh via one of the methods listed at the start of this document.
+    - To solve this, either manually clean your `reshade-shaders/Shaders` by searching for and deleting duplicates (for example, delete one of the `MultiLUT.fx` files), or entirely delete your `reshade-shaders/Shaders` folder and reinstall the shaders fresh via one of the methods listed at the start of this document.
 
 **2. Make sure you are using the "with full add-on support" version of ReShade.**
   - You can check this by going to the "Add-ons" tab in the ReShade overlay and checking if you see this message at the top:
