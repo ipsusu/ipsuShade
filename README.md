@@ -297,7 +297,7 @@ This issue can also be caused by duplicate shaders. If your install is seemingly
 - Update your MultiLUT.fx file (found in `/game/reshade-shaders/Shaders/MultiLut.fx`) with the latest version from the offical repo: [https://github.com/FransBouma/OtisFX/blob/master/Shaders/MultiLUT.fx](https://github.com/FransBouma/OtisFX/blob/master/Shaders/MultiLUT.fx)
 - Ensure you are using the most up-to-date version of my `MultiLut_Ipsusu.png` file. Replace the one found in your `/game/reshade-shaders/Textures/MultiLut_Ipsusu.png` directory with the one downloaded from [here.](https://github.com/ipsusu/ipsuShade/blob/master/reshade-shaders/Textures/MultiLut_Ipsusu.png)
 
-### My game is super dark!
+### My game is super dark! OR My ReShade keeps getting disabled every time a dialog box opens!
 
 <img width="33%" src="https://i.imgur.com/AD9t6jO.jpeg"></img>
 
