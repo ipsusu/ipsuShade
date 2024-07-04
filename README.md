@@ -403,7 +403,7 @@ Please report to me any issues you have with this!
 
 Example preset to use with the config - Download: [ipsusuQuestingLite - Melon.ini](https://gist.github.com/ipsusu/dca929d0d52a56f16d8b81c6afab0e7b)
 
-**NOTE:**  I've significantly increased the sharpening in the preset to counteract some of the softening caused by DLSS (DLAA, specifically). 
+**NOTE:**  I've significantly increased the sharpening in the preset to counteract some of the softening caused by DLSS (DLAA, specifically), and also the depth blur and fog that the shaders now render underneath.
 
 if the game looks fucked up to you, turn the "Sharpen Strength" slider down under the "Effects Intensity" tab of the Glamarye settings.
 
