@@ -399,7 +399,7 @@ Please report to me any issues you have with this!
 **Last updated:** 2024-07-02
 
 **Download:** [1.3.19 ReshadeEffectShaderToggler.ini config with ipsusuTransparencyFix.
-](https://gist.github.com/ipsusu/dca929d0d52a56f16d8b81c6afab0e7b)
+](https://gist.github.com/ipsusu/4210da2c0296f48d45dcdb895ee36155)
 
 Example preset to use with the config - Download: [ipsusuQuestingLite - Melon.ini](https://gist.github.com/ipsusu/dca929d0d52a56f16d8b81c6afab0e7b)
 
