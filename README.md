@@ -311,7 +311,7 @@ This can be fixed by updating your REST add-on and it's FFXIV specific config. B
 
 ### Shadows and the shaders of the preset are rendering through the HUD and UI!
 
-<img width="66%" src="https://i.imgur.com/D1icd2T.png"></img>
+<img width="50%" src="https://i.imgur.com/D1icd2T.png"></img>
 
 **If you are using ReShade:** You need to use the [REST (ReshadeEffectShaderToggler) add-on](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) for exclusion of UI filtering. Or, if you are using GPosingway, you can optionally enable both FFKeepUI and FFRestoreUI in the preset instead of using REST. Don't use both at the same time. 
 
