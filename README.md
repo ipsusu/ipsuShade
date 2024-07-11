@@ -313,6 +313,8 @@ This can be fixed by updating your REST add-on and it's FFXIV specific config. B
 
 <img width="50%" src="https://i.imgur.com/D1icd2T.png"></img>
 
+This issue is caused by ReShade not having a way of detecting the UI and HUD of the game. Therefore, it renders through it. You can fix this by the following methods:
+
 **If you are using ReShade:** You need to use the [REST (ReshadeEffectShaderToggler) add-on](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) for exclusion of UI filtering. Or, if you are using GPosingway, you can optionally enable both FFKeepUI and FFRestoreUI in the preset instead of using REST. Don't use both at the same time. 
 
 >*Bear in mind, the FFKeepUI shader relies on GShade specific code to function, so it will not work on certain HUD elements in ReShade. This method also requires FXAA to be enabled for the ingame settings, so it is less than ideal.*
