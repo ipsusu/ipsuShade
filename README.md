@@ -309,6 +309,16 @@ This can be fixed by updating your REST add-on and it's FFXIV specific config. B
 
 **Update your REST FFXIV specific config here:** [https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV)
 
+### Shadows and the shaders of the preset are rendering through the HUD and UI!
+
+<img width="66%" src="https://i.imgur.com/D1icd2T.png"></img>
+
+**If you are using ReShade:** You need to use the [REST (ReshadeEffectShaderToggler) add-on](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) for exclusion of UI filtering. Or, if you are using GPosingway, you can optionally enable both FFKeepUI and FFRestoreUI in the preset instead of using REST. Don't use both at the same time. 
+
+>*Bear in mind, the FFKeepUI shader relies on GShade specific code to function, so it will not work on certain HUD elements in ReShade. This method also requires FXAA to be enabled for the ingame settings, so it is less than ideal.*
+
+**If you are using GShade:** Enable FFKeepUI and FFRestoreUI in the preset. If you want to use [REST](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) instead (lets you use an AA method other than FXAA among other benefits, so I recommend it) disable FFKeepUI and FFRestoreUI in the preset.
+
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
 
