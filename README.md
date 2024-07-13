@@ -406,12 +406,11 @@ WIP FOR DAWNTRAIL
 
 Please report to me any issues you have with this!
 
-***Required REST version: [1.3.19](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/tag/v1.3.19)***
+***Required REST version: [1.3.20](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/tag/v1.3.20)***
 
-**Last updated:** 2024-07-02
+**Last updated:** 2024-07-13
 
-**Download:** [1.3.19 ReshadeEffectShaderToggler.ini config with ipsusuTransparencyFix.
-](https://gist.github.com/ipsusu/4210da2c0296f48d45dcdb895ee36155)
+**Download:** [1.3.20 ReshadeEffectShaderToggler.ini config.](https://gist.github.com/ipsusu/4210da2c0296f48d45dcdb895ee36155)
 
 Example preset to use with the config - Download: [ipsusuQuestingLite - Melon.ini](https://gist.github.com/ipsusu/dca929d0d52a56f16d8b81c6afab0e7b)
 
@@ -420,7 +419,8 @@ Example preset to use with the config - Download: [ipsusuQuestingLite - Melon.in
 if the game looks fucked up to you, turn the "Sharpen Strength" slider down under the "Effects Intensity" tab of the Glamarye settings.
 
 **Known bugs:**
-Seems to be a flickering issue with iMMERSE MXAO. Disabling iMMERSE fixes this.
+- Seems to be a flickering issue with iMMERSE MXAO. Disabling iMMERSE fixes this.
+- There's another issue with Glamarye's Fake GI. Use the Glamarye version without FakeGI to fix this. 
 
 ## Donate
 
