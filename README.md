@@ -319,7 +319,7 @@ This issue is caused by ReShade not having a way of detecting the UI and HUD of 
 
 >*Bear in mind, the FFKeepUI shader relies on GShade specific code to function, so it will not work on certain HUD elements in ReShade. This method also requires FXAA to be enabled for the ingame settings, so it is less than ideal.*
 
-**If you are using GShade:** Enable FFKeepUI and FFRestoreUI in the preset. If you want to use [REST](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) instead (lets you use an AA method other than FXAA among other benefits, so I recommend it) disable FFKeepUI and FFRestoreUI in the preset.
+**If you are using GShade:** Enable FFKeepUI and FFRestoreUI in the preset. If you want to use [REST](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) instead (lets you use an AA method other than FXAA among other benefits, so I recommend it) disable FFKeepUI and FFRestoreUI in the preset. Just put the addon file in your `gshade-addons` folder alongside the specific FFXIV.ini config for it from, the linked repo.
 
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
