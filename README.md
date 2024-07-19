@@ -343,7 +343,7 @@ Unfortunately, there is no perfect fix to this if you want to keep the AO shader
 
 **To fix this entirely:** 
 
-Disable the `Fast AO` checkbox under Glamarye and also any MXAO shaders used in the preset to add additional shadows to the game. Bear in mind, this means ReShade will no longer contribute any additonal shadows to your game. You might want to use the `GTAO Quality` setting in-game to somewhat counteract this.
+Disable the `Fast AO` checkbox under Glamarye and also any MXAO shaders used in the preset to add additional shadows to the game. Bear in mind, this means ReShade will no longer contribute any additonal shadows to your game. You might want to use the `GTAO Quality` Ambient Occlusion setting in-game to somewhat counteract this.
 
 **To fix this while keeping AO shaders enabled:** 
 
