@@ -329,7 +329,7 @@ This is use to the use of FFKeepUI under ReShade, which is done by default with 
 
 **To fix this:**
 
-You need to use the [REST (ReshadeEffectShaderToggler) add-on](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) for exclusion of UI in the filtering. Follow the steps in that guide, and download it's recommended version of the REST addon and the FFXIV specific config .ini provided. You need to put both the REST `.addon64` file and it's FFXIV config `.ini` in your FFXIV `/game/` folder. For GShade, you need to put these in your `gshade-addons` folder, which should be in the same location.
+You need to use the [REST (ReshadeEffectShaderToggler) add-on](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) for exclusion of UI in the filtering rather than FFKeepUI. Follow the steps in that guide, and download it's recommended version of the REST addon and the FFXIV specific config .ini provided. You need to put both the REST `.addon64` file and it's FFXIV config `.ini` in your FFXIV `/game/` folder. For GShade, you need to put these in your `gshade-addons` folder, which should be in the same location. Ensure you disable the `FFKeepUI` and `FFRestoreUI` shaders in all of your presets after enabling REST.
 
 ### There is a checkerboard pattern beneath my glasses or the glasses of an NPC.
 
