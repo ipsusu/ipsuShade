@@ -266,7 +266,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 
 <img width="25%" src="https://i.imgur.com/1ABDbmJ.png"></img>
 
-This is because of the in-game Graphics Upscaling setting and/or 3D Resolution Scaling settings. FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
+This is because of the in-game Graphics Upscaling setting and/or 3D Resolution Scaling settings. This is currently most often the issue when people tried to set their FSR ingame to 99, to enable the built in sharpening filter of FSR. This setting should not be used in conjunction with ReShade, as it causes issues for ReShade and you can instead just enable a shader like `iMMERSE: Sharpen` and get a better quality effect anyway. As for this issue: FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
 
 **To fix this you can:**
 
@@ -317,9 +317,39 @@ This issue is caused by ReShade not having a way of detecting the UI and HUD of 
 
 **If you are using ReShade:** You need to use the [REST (ReshadeEffectShaderToggler) add-on](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) for exclusion of UI in the filtering. Or, if you are using GPosingway, you can optionally enable both FFKeepUI and FFRestoreUI in the preset instead of using REST. Don't use both at the same time. 
 
->*Bear in mind, the FFKeepUI shader relies on GShade specific code to function, so it will not work on certain HUD elements in ReShade. This method also requires FXAA to be enabled for the ingame settings, so it is less than ideal.*
+>*Bear in mind, the FFKeepUI shader relies on GShade specific code to function, so it will not work on certain HUD elements in ReShade. This method also requires FXAA to be enabled for the ingame settings, so it is less than ideal. Do use REST if you can.*
 
 **If you are using GShade:** Enable FFKeepUI and FFRestoreUI in the preset. If you want to use [REST](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) instead (lets you use an AA method other than FXAA among other benefits, so I recommend it) disable FFKeepUI and FFRestoreUI in the preset. Just put the addon file in your `gshade-addons` folder alongside the specific FFXIV.ini config for it from, the linked repo.
+
+### There are weird unshaded boxes around certain transparencies and particle effects!
+
+<img width="50%" src="https://i.imgur.com/7BgsgWs.jpeg"></img>
+
+This is use to the use of FFKeepUI under ReShade, which is done by default with GPosingway. I don't particularly agree with this choice, due to this very reason. FFKeepUI is a GShade specific shader, and has these issues under ReShade. Instead, REST should be used to stop applying your filters to the base game's HUD and transparencies. 
+
+**To fix this:**
+
+You need to use the [REST (ReshadeEffectShaderToggler) add-on](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV) for exclusion of UI in the filtering. Follow the steps in that guide, and download it's recommended version of the REST addon and the FFXIV specific config .ini provided. You need to put both the REST `.addon64` file and it's FFXIV config `.ini` in your FFXIV `/game/` folder. For GShade, you need to put these in your `gshade-addons` folder, which should be in the same location.
+
+### There is a checkerboard pattern beneath my glasses or the glasses of an NPC.
+
+<img width="50%" src="https://i.imgur.com/UDXj46b.png"></img>
+
+Along with the graphics updates in Dawntrail, they changed how the rendering worked on certain glass materials. As such, ReShade now will see these as opaque objects, and attempt to render a shadow behind them if any Ambient Occlusion (AO) shaders are enabled. In my presets, these shaders would be the `Fast AO` checkbox under Glamarye Fast Effects, and the entire `iMMERSE: MXAO` shader and the `qUINT MXAO` shader, mainly.
+
+**To fix this:**
+
+Unfortunately, there is no perfect fix to this if you want to keep the AO shaders enabled. You can use one of the following options.
+
+**To fix this entirely:** 
+
+Disable the `Fast AO` checkbox under Glamarye and also any MXAO shaders used in the preset to add additional shadows to the game. Bear in mind, this means ReShade will no longer contribute any additonal shadows to your game. You might want to use the `GTAO Quality` setting in-game to somewhat counteract this.
+
+**To fix this while keeping AO shaders enabled:** 
+
+You need to use the [experimental REST transparency fix](https://github.com/ipsusu/ipsuShade/tree/master?tab=readme-ov-file#experimental-rest-transparency-fix) as detailed below in this document. It is a custom config for the REST addon that includes some of the shaders of the preset before the in-game transparencies of the game, by detecting the in-game shaders used and giving that information back to the shader. However, it gives it to the shader in a very raw way that it doesn't expect, so it causes significant flickering issues and black clipping with `iMMERSE MXAO` and causes glitching of black squares when used with the `with_Fake_GI` version of Glamarye. Instead, use the `without_Fake_GI` version. 
+
+If this config is not up-to-date, simply take the default FFXIV config and then ingame edit the "Before Effects" group in the `Add-ons` tab to include any of the AO shaders you use. To do this, just click the checkboxes next to the list of shaders on the first panel of the edit screen. You must click `Save toggle groups` after, otherwise this change will revert once you reset your game.
 
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
