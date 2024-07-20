@@ -281,6 +281,8 @@ This is because of the in-game Graphics Upscaling setting and/or 3D Resolution S
     - Your stuff should now work!
     - If not, you may need to simply disable the Graphics Upscaling. You can currently do this by turning the `Graphics Upscaling` value to `FSR` and then setting the `3D Resolution Scaling` slider to `100`.
 
+I think you can also change the `﻿RESHADE_DEPTH_INPUT_X_SCALE` and `RESHADE_DEPTH_INPUT_Y_SCALE` (in the global preprocessor settings) to `1.01` or `1.02` if you're absolutely committed to doing the "Set FSR to 99 to enable the built in sharpening filter" trick. But, YMMV and I haven't tested this.
+
 ### My game is green! (or Pink!)
 
 <img width="33%" src="https://i.imgur.com/mGTAvfV.jpeg"></img>
