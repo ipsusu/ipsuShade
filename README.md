@@ -281,7 +281,7 @@ This is because of the in-game Graphics Upscaling setting and/or 3D Resolution S
     - Your stuff should now work!
     - If not, you may need to simply disable the Graphics Upscaling. You can currently do this by turning the `Graphics Upscaling` value to `FSR` and then setting the `3D Resolution Scaling` slider to `100`.
 
-**Alternative Method:** I think you can instead add  `﻿RESHADE_DEPTH_INPUT_X_SCALE` and `RESHADE_DEPTH_INPUT_Y_SCALE` to in the global preprocessor settings, and then set their values to a value above 1 to scale the depth buffer to match the native resolution. For the FSR at 99 trick, it would be setting these to `1.01` or `1.02` etc. until everything matches up. If you're scaling staticly via DLSSTweaks and have disabled the dynamic resolution, you can set this again to your static scaling. I would assume a 0.75 internal scaling preset would require a `1.25` scaling via the ReShade preprocessors, but I haven't tested this.
+**Alternative Method:** I think you can instead add  `﻿RESHADE_DEPTH_INPUT_X_SCALE` and `RESHADE_DEPTH_INPUT_Y_SCALE` to in the global preprocessor settings, and then set their values to a value above 1 to scale the depth buffer to match the native resolution. For the FSR at 99 trick, it would be setting these to `1.01` or `1.02` etc. until everything matches up. If you're scaling staticly via DLSSTweaks and have disabled the dynamic resolution, you can set this again to your static scaling. A 0.75 internal scaling preset requires a `1.33` scaling via the ReShade preprocessors, for some reason, so idk how that works.
 
 ### My game is green! (or Pink!)
 
