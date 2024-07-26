@@ -425,6 +425,11 @@ Here are a couple of common issues and solutions:
 -->
 ## Required FFXIV in-game graphics settings:
 
+Recommended: 
+
+- Fix your DLSS, and use it! -> [https://www.reddit.com/r/ffxivdiscussion/comments/1dwr5bu/definitive_dlss_fixes/](https://www.reddit.com/r/ffxivdiscussion/comments/1dwr5bu/definitive_dlss_fixes/)
+
+Required:
 WIP FOR DAWNTRAIL
 <!--
 - Enable dynamic resolution: `Off`
