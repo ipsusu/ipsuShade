@@ -327,7 +327,7 @@ This issue is caused by ReShade not having a way of detecting the UI and HUD of 
 
 <img width="50%" src="https://i.imgur.com/7BgsgWs.jpeg"></img>
 
-This is use to the use of FFKeepUI under ReShade, which is done by default with GPosingway. I don't particularly agree with this choice, due to this very reason. FFKeepUI is a GShade specific shader, and has these issues under ReShade. Instead, REST should be used to stop applying your filters to the base game's HUD and transparencies. 
+This is due to the use of FFKeepUI under ReShade, which is done by default with GPosingway. I don't particularly agree with this choice, due to this very reason. FFKeepUI is a GShade specific shader, and has these issues under ReShade. Instead, REST should be used to stop applying your filters to the base game's HUD and transparencies. 
 
 **To fix this:**
 
