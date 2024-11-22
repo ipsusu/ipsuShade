@@ -438,7 +438,7 @@ WIP FOR DAWNTRAIL
 
 - Naturally darken the edges of the screen. (Limb Darkening): `Off`
 -->
-
+<!--
 ## Experimental REST Transparency fix.
 
 Please report to me any issues you have with this!
@@ -458,7 +458,7 @@ if the game looks fucked up to you, turn the "Sharpen Strength" slider down unde
 **Known bugs:**
 - Seems to be a flickering issue with iMMERSE MXAO. Disabling iMMERSE fixes this.
 - There's another issue with Glamarye's Fake GI. Use the Glamarye version without FakeGI to fix this. 
-
+-->
 ## Donate
 
 You can donate or tip me some lunch money here:
