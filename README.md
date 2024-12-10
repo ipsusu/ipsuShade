@@ -80,7 +80,7 @@ Each preset type comes in a range of 7 included colour variants.
   
 5. Please now click `Next` after ensuring all the effects have a checkmark next to them. The ReShade installer will now download these shaders. Please wait for this process to finish, and it will bring you to the Addon step.
   
-6. As of 2024-07-02, the ReShade installer downloads an outdated version of REST. If you want REST, install it from here: [https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/) --------------------------------------- Old guidance: <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow the exclusion of UI / HUD elements from the preset filtering (FFKeepUI in GShade).
+6. <b>(OPTIONAL)</b> For the add-ons step, you may want to check and install `ReshadeEffectShaderToggler (REST) by 4lex4nder` to allow the exclusion of UI / HUD elements from the preset filtering (FFKeepUI in GShade).
     - If you check this, <b>you need to download the FFXIV preconfigured `ReshadeEffectShaderToggler.ini` found <a href="https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV/blob/main/ReshadeEffectShaderToggler.ini">here</a> to get it working.</b> Just place it next to the `ReshadeEffectShaderToggler.addon64` in your `/game/` folder.
     - To remove this addon, just delete the `ReshadeEffectShaderToggler.addon64` from your game folder.
    <p align="center"> <img width="50%" src="https://i.imgur.com/0OxKNxB.png"> </p>
