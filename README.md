@@ -266,7 +266,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 
 <img width="25%" src="https://i.imgur.com/1ABDbmJ.png"></img>
 
-This is because of the in-game Graphics Upscaling setting and/or 3D Resolution Scaling settings. This is currently most often the issue when people tried to set their FSR ingame to 99, to enable the built in sharpening filter of FSR. This setting should not be used in conjunction with ReShade, as it causes issues for ReShade and you can instead just enable a shader like `iMMERSE: Sharpen` and get a better quality effect anyway. As for this issue: FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
+This is because of the in-game Graphics Upscaling setting amd/or 3D Resolution Scaling settings. This is currently most often the issue after the early popular recommendation to set FSR ingame to 99, to enable the built in sharpening filter of FSR. This setting should not be used in conjunction with ReShade, as it causes issues for ReShade (You can instead just enable a shader like `iMMERSE: Sharpen` and get a better quality effect anyway!). As for this issue: FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
 
 **To fix this you can:**
 
