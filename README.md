@@ -341,18 +341,18 @@ Along with the graphics updates in Dawntrail, they changed how the rendering wor
 
 **To fix this:**
 
-Unfortunately, there is no perfect fix to this if you want to keep the AO shaders enabled. You can use one of the following options.
+Unfortunately, there is no perfect fix to this if you want to keep the AO shaders enabled. There is the possibility of this being fixed via the [REST (ReshadeEffectShaderToggler) add-on](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV), but I am not smart enough to make this fix myself (I've tried!). DM me if you have experience with REST and want to collaborate on fixing this issue!
 
-**To fix this entirely:** 
+**To fix this while disabling AO:** 
 
 Disable the `Fast AO` checkbox under Glamarye and also any MXAO shaders used in the preset to add additional shadows to the game. Bear in mind, this means ReShade will no longer contribute any additonal shadows to your game. You might want to use the `GTAO Quality` Ambient Occlusion setting in-game to somewhat counteract this.
-
+<!--
 **To fix this while keeping AO shaders enabled:** 
 
 You need to use the [experimental REST transparency fix](#experimental-rest-transparency-fix) as detailed below in this document. It is a custom config for the REST addon that includes some of the shaders of the preset before the in-game transparencies of the game, by detecting the in-game shaders used and giving that information back to the shader. However, it gives it to the shader in a very raw way that it doesn't expect, so it causes significant flickering issues and black clipping with `iMMERSE MXAO` and causes glitching of black squares when used with the `with_Fake_GI` version of Glamarye. Instead, use the `without_Fake_GI` version. 
 
 If this config is not up-to-date, simply take the default FFXIV config and then ingame edit the "Before Effects" group in the `Add-ons` tab to include any of the AO shaders you use. To do this, just click the checkboxes next to the list of shaders on the first panel of the edit screen. You must click `Save toggle groups` after, otherwise this change will revert once you reset your game.
-
+-->
 <!--
 Certain people's installations of ReShade are a bit borked because early guides missed important steps and the <a href="https://github.com/eqbot/ReReShade">ReReShade</a> tool had a bug where it didn't bring your textures over from GShade.
 
