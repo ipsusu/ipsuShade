@@ -8,7 +8,7 @@ ipsuShade - Guidance on Pro Suite Supported Shaders:
   <h1 align="center">ipsuShade.</h1>
   <h3 align="center"> ReShade / GShade presets for Final Fantasy XIV.</h3>
 </p>
-<p align="center"> <img width="66%" src="https://i.imgur.com/t4rBKq6.png"> </p>
+<p align="center"> <img width="66%" src="https://i.imgur.com/B2iuPjD.png"> </p>
 
 ## Table of Contents
 
