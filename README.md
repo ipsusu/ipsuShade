@@ -264,7 +264,7 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 
 ### My shaders are not lined up with the edge of my character, they're floating to the top left!
 
-<img width="25%" src="https://i.imgur.com/1ABDbmJ.png"></img>
+<img width="25%" src="https://i.imgur.com/yasNvWQ.png"></img>
 
 This is because of the in-game Graphics Upscaling setting amd/or 3D Resolution Scaling settings. This is currently most often the issue after the early popular recommendation to set FSR ingame to 99, to enable the built in sharpening filter of FSR. This setting should not be used in conjunction with ReShade, as it causes issues for ReShade (You can instead just enable a shader like `iMMERSE: Sharpen` and get a better quality effect anyway!). As for this issue: FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
 
@@ -463,19 +463,8 @@ if the game looks fucked up to you, turn the "Sharpen Strength" slider down unde
 
 You can donate or tip me some lunch money here:
 
-<a href='https://ko-fi.com/ipsusu' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>
+<a href='https://ko-fi.com/ipsusu' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://i.imgur.com/7bleA40.png' border='0' alt='Buy Me a Coffee at ko-fi.com'/></a>
 
-
-<!--
-## Bespoke ReShade Preset Commissions
-
-I now offer paid Bespoke ReShade Preset Commissions, to craft a perfect preset to match your WoL, or any specific mood, vibe, theme or use case you desire.
-
-<img src="https://i.imgur.com/eNmbE6D.png" style="width: 70%" align="center"></img>
-
-<h3>You can find more information here:</h3> 
-<h3><a href='https://bespoke.susu.gay'>https://bespoke.susu.gay</a></h3>
--->
 
 ## Contact
 
