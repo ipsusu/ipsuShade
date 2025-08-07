@@ -427,7 +427,7 @@ Here are a couple of common issues and solutions:
 
 Recommended: 
 
-- Fix your DLSS, and use it! -> [https://www.reddit.com/r/ffxivdiscussion/comments/1dwr5bu/definitive_dlss_fixes/](https://www.reddit.com/r/ffxivdiscussion/comments/1dwr5bu/definitive_dlss_fixes/)
+- [https://github.com/optiscaler/OptiScaler](https://github.com/optiscaler/OptiScaler)
 
 Required:
 WIP FOR DAWNTRAIL
