@@ -266,9 +266,17 @@ After installation, you will be able to find the ipsuShade presets in the `gshad
 
 <img width="25%" src="https://i.imgur.com/yasNvWQ.png"></img>
 
-This is because of the in-game Graphics Upscaling setting amd/or 3D Resolution Scaling settings. This is currently most often the issue after the early popular recommendation to set FSR ingame to 99, to enable the built in sharpening filter of FSR. This setting should not be used in conjunction with ReShade, as it causes issues for ReShade (You can instead just enable a shader like `iMMERSE: Sharpen` and get a better quality effect anyway!). As for this issue: FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
+This is cause by the in-game Graphics Upscaling setting and/or 3D Resolution Scaling settings. 
+
+This is currently most often the issue from the early popular recommendation to set FSR ingame to 99, to enable the built in sharpening filter of FSR. This setting should not be used in conjunction with ReShade, as it causes issues for ReShade (You can instead just enable a shader like `iMMERSE: Sharpen` and get a better quality effect anyway!). 
+
+As for this issue: FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
 
 **To fix this you can:**
+
+Simply just **set FSR to 100 in your in-game graphics settings** to disable the effect entirely and just use a native image.
+
+*Alternatively, this ReShade workaround may work:*
 
 - Select the upscaled scaled depth buffer value in the settings of the "Generic Depth" addon.
   - To do this, go to the "Add-ons" tab in your ReShade overlay, and look under the `Generic Depth` addon.
@@ -281,7 +289,7 @@ This is because of the in-game Graphics Upscaling setting amd/or 3D Resolution S
     - Your stuff should now work!
     - If not, you may need to simply disable the Graphics Upscaling. You can currently do this by turning the `Graphics Upscaling` value to `FSR` and then setting the `3D Resolution Scaling` slider to `100`.
 
-**Alternative Method:** I think you can instead add  `﻿RESHADE_DEPTH_INPUT_X_SCALE` and `RESHADE_DEPTH_INPUT_Y_SCALE` to in the global preprocessor settings, and then set their values to a value above 1 to scale the depth buffer to match the native resolution. For the FSR at 99 trick, it would be setting these to `1.01` or `1.02` etc. until everything matches up. If you're scaling staticly via DLSSTweaks and have disabled the dynamic resolution, you can set this again to your static scaling. A 0.75 internal scaling preset requires a `1.33` scaling via the ReShade preprocessors, for some reason, so idk how that works.
+**EXTRA Alternative Method:** I think you can instead add  `﻿RESHADE_DEPTH_INPUT_X_SCALE` and `RESHADE_DEPTH_INPUT_Y_SCALE` to in the global preprocessor settings, and then set their values to a value above 1 to scale the depth buffer to match the native resolution. For the FSR at 99 trick, it would be setting these to `1.01` or `1.02` etc. until everything matches up. If you're scaling staticly via DLSSTweaks and have disabled the dynamic resolution, you can set this again to your static scaling. A 0.75 internal scaling preset requires a `1.33` scaling via the ReShade preprocessors, because math.
 
 ### My game is green! (or Pink!)
 
