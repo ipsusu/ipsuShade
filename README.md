@@ -270,11 +270,11 @@ This is cause by the in-game Graphics Upscaling setting and/or 3D Resolution Sca
 
 This is currently most often the issue from the early popular recommendation to set FSR ingame to 99, to enable the built in sharpening filter of FSR. This setting should not be used in conjunction with ReShade, as it causes issues for ReShade (You can instead just enable a shader like `iMMERSE: Sharpen` and get a better quality effect anyway!). 
 
-As for this issue: FSR will be "static" and just respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
+As for this issue: FSR will be "static" and respect your resolution scaling percentage, offsetting the effects by a fixed amount. DLSS will vary to the demands of the current scene, making the effects scale and move.
 
 **To fix this you can:**
 
-Simply just **set FSR to 100 in your in-game graphics settings** to disable the effect entirely and just use a native image.
+Simply just **set FSR to 100 in your in-game graphics settings** to disable the effect entirely and use a native image.
 
 *Alternatively, this ReShade workaround may work:*
 
