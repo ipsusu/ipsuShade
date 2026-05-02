@@ -1,9 +1,3 @@
-ipsuShade - Guidance on Pro Suite Supported Shaders:  
-- [iMMERSE Pro 2403 (or higher)](https://www.martysmods.com/rtgi/)
-- [iMMERSE Ultimate 2403 (or higher)](https://www.martysmods.com/relight/)
-- qUINT_rtgi.fx (v0.36.1, but lower versions will work.)
-- [NiceGuy COMPLETE_RT (outdated)](https://www.patreon.com/NiceGuy147)
-
 <p align="center">
   <h1 align="center">ipsuShade.</h1>
   <h3 align="center"> ReShade / GShade presets for Final Fantasy XIV.</h3>
@@ -50,7 +44,14 @@ Each preset type comes in a range of 7 included colour variants.
 
 <!-- <img src="https://i.imgur.com/wr2tvRH.png"> -->
 
-
+## Pro Suite — Optional Supported Shaders
+ 
+The `Pro Suite` presets optionally support the following third-party shaders. These are **not required** for the rest of the ipsuShade presets, they only enhance the `Pro Suite` variants if installed separately:
+ 
+- [iMMERSE Pro 2403 (or higher)](https://www.martysmods.com/rtgi/)
+- [iMMERSE Ultimate 2403 (or higher)](https://www.martysmods.com/relight/)
+- `qUINT_rtgi.fx` (v0.36.1, but lower versions will work)
+- [NiceGuy COMPLETE_RT (outdated)](https://www.patreon.com/NiceGuy147)
 
 <hr>
 
