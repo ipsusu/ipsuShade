@@ -1,4 +1,14 @@
 <p align="center">
+  <a href="https://github.com/ipsusu/ipsuShade/releases/latest"><img src="https://img.shields.io/github/v/release/ipsusu/ipsuShade?style=for-the-badge&label=latest%20release&color=4a9eda" /></a>
+  <a href="https://github.com/ipsusu/ipsuShade/stargazers"><img src="https://img.shields.io/github/stars/ipsusu/ipsuShade?style=for-the-badge&color=4a9eda" /></a>
+  <a href="https://github.com/ipsusu/ipsuShade/releases"><img src="https://img.shields.io/github/downloads/ipsusu/ipsuShade/total?style=for-the-badge&color=4a9eda" /></a>
+  <a href="https://reshade.me"><img src="https://img.shields.io/badge/ReShade-compatible-4a9eda?style=for-the-badge" /></a>
+  <a href="https://github.com/Mortalitas/GShade/releases"><img src="https://img.shields.io/badge/GShade-compatible-4a9eda?style=for-the-badge" /></a>
+  <a href="https://github.com/gposingway/gposingway"><img src="https://img.shields.io/badge/GPosingway-included-4a9eda?style=for-the-badge" /></a>
+  <a href="https://ko-fi.com/ipsusu"><img src="https://img.shields.io/badge/ko--fi-support-4a9eda?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
+</p>
+
+<p align="center">
   <h1 align="center">ipsuShade.</h1>
   <h3 align="center"> ReShade / GShade presets for Final Fantasy XIV.</h3>
 </p>
