@@ -308,17 +308,26 @@ This issue can also be caused by duplicate shaders. If your install is seemingly
 - Update your MultiLUT.fx file (found in `/game/reshade-shaders/Shaders/MultiLut.fx`) with the latest version from the offical repo: [https://github.com/FransBouma/OtisFX/blob/master/Shaders/MultiLUT.fx](https://github.com/FransBouma/OtisFX/blob/master/Shaders/MultiLUT.fx)
 - Ensure you are using the most up-to-date version of my `MultiLut_Ipsusu.png` file. Replace the one found in your `/game/reshade-shaders/Textures/MultiLut_Ipsusu.png` directory with the one downloaded from [here.](https://github.com/ipsusu/ipsuShade/blob/master/reshade-shaders/Textures/MultiLut_Ipsusu.png)
 
-### My game is super dark! OR My ReShade keeps getting disabled every time a dialog box opens!
+### My game is super dark! OR My ReShade keeps getting disabled/darkens every time a dialog box or cutscene opens!
 
 <img width="33%" src="https://i.imgur.com/AD9t6jO.jpeg"></img>
 
-This seems to be an issue with the ReShade installer downloading an old version of the REST (ReshadeEffectShaderToggler) add-on for exclusion of UI filtering, that doesn't play well with the Glamarye Fast Effects shader.
+This can be an caused by two things:
+- Your in-game "Full-screen Mode Gamma Correction" isn't set to exactly 50.
+  
+  - <b>To fix the first issue</b>, while in-game, open `System Configuration`, and at the top `Display Settings` option, you'll have this setting. You need to ensure it's at 50 exactly, like the below screenshot:
+    
+  - <img width="33%" src="https://i.imgur.com/2HkxzhZ.png"></img>
 
-This can be fixed by updating your REST add-on and it's FFXIV specific config. Both the `ReshadeEffectShaderToggler.addon64` and `ReshadeEffectShaderToggler.ini` should be copied into your `/game/` folder. Replace/overwrite.
+- It could be the ReShade installer downloading an old version of the REST (ReshadeEffectShaderToggler) add-on for exclusion of UI filtering, that doesn't play well with the Glamarye Fast Effects shader.
+  
+   - <b>To fix the second issue:</b>
 
-**Update your REST here:** [https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/)
+   - This can be fixed by updating your REST add-on and it's FFXIV specific config. Both the `ReshadeEffectShaderToggler.addon64` and `ReshadeEffectShaderToggler.ini` should be copied into your `/game/` folder. Replace/overwrite.
+   
+      - **Update your REST here:** [https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/)
+      - **Update your REST FFXIV specific config here:** [https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV)
 
-**Update your REST FFXIV specific config here:** [https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV](https://github.com/4lex4nder/ReshadeEffectShaderToggler-FFXIV)
 
 ### Shadows and the shaders of the preset are rendering through the HUD and UI!
 
